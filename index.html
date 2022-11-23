@@ -688,18 +688,18 @@
              <div class="contact-form-card-pr contact-block-sw iconin">
               <h4>Have Question? Write a Message</h4>             
               <div class="form-block blueketform mt40">
-                  <form method="POST" action="https://formspree.io/f/mpznngkk">
+                  <form  action="assets/js/send.php" id="contactform" method="POST" >
                       <div class="fieldsets row">
                           <div class="col-md-6 form-group floating-label">
                               <div class="formicon">
                               <i class="fa-solid fa-user"></i></div>
-                              <input type="text" placeholder=" " required="required" id="name" class="floating-input" name="fullname">
+                              <input type="text" placeholder=" " required="required" id="fullname" class="floating-input" name="fullname">
                               <label>Full Name*</label>
                               <div class="error-label"></div>
                           </div>
                           <div class="col-md-6 form-group floating-label">
                               <div class="formicon"><i class="fa-solid fa-phone"></i></div>
-                              <input type="tel" placeholder=" " required="required" id="mobile_number" class="floating-input" name="mobile_number">
+                              <input type="tel" placeholder=" " required="required" id="mobilenumber" class="floating-input" name="mobilenumber">
                               <label>Mobile Number*</label>
                               <div class="error-label"></div>
                           </div>
@@ -713,7 +713,7 @@
                           </div>
                           <div class="col-md-6 form-group floating-label">
                               <div class="formicon"><i class="fa-solid fa-rectangle-list"></i></div>
-                              <select required="required" id="interested_in" class="floating-select" name="interested_in">
+                              <select required="required" id="interestedin" class="floating-select" name="interestedin">
                                   <option value="">&nbsp;</option>
                                   <option value="Graphic Design" >Graphic Design</option>
                                   <option value="Web Design" >Web Design</option>
