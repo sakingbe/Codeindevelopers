@@ -9,7 +9,7 @@ $description = $_POST["description"];
 require "vendor/autoload.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
+use vendor\phpmailer\phpmailer\src\SMTP.php;
 
 $mail = new PHPMailer(true);
 
