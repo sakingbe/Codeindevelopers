@@ -13,7 +13,7 @@ use PHPMailer\PHPMailer\SMTP;
 
 $mail = new PHPMailer(true);
 
-// $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+$mail->SMTPDebug = SMTP::DEBUG_SERVER;
 
 $mail->isSMTP();
 $mail->SMTPAuth = true;
@@ -32,5 +32,6 @@ $mail->Subject = $subject;
 $mail->Body = $message;
 
 $mail->send();
+echo "email sent"
 
-header("Location: sent.html");
+//header("Location: sent.html");
