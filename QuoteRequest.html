@@ -12,8 +12,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content="#111">
   <!--Website Favicon Logo-->
-  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
-  <link rel="icon" type="image/png" href="images/logo.png">
+  <link href="images\favicon.svg" rel="icon">
   <!--Plugin CSS Files-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/blueket.plugin.css" rel="stylesheet">
@@ -23,11 +22,11 @@
     rel="stylesheet">
   <!--Custom CSS File-->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
   <link href="css/colormode.css" rel="stylesheet">
 </head>
 
 <body>
-
   <!--Start header -->
   <header class="header animation">
     <div class="container">
@@ -35,7 +34,7 @@
         <!-- header logo -->
         <div class="header-item-left">
           <a href="index.html" class="brandlogo">
-            <img src="images/logo-black.svg" alt="logo" class="light">
+            <img src="images/logo-white.svg" alt="logo" class="light">
             <img src="images/logo-black.svg" alt="logo" class="dark">
           </a>
         </div>
@@ -48,11 +47,72 @@
               <div class="menu-mobile-title"></div>
               <button type="button" class="menu-mobile-close"><i class="fa-solid fa-xmark"></i></button>
             </div>
+            <ul class="menu-section">
+              <li class="menu-item-has-children">
+                <a href="#.">Demo <i class="fa-solid fa-angle-down"></i></a>
+                <div class="menu-subs menu-column-1">
+                  <ul>
+                    <li><a href="demo-1.html">Demo Page 1</a></li>
+                    <li><a href="demo-2.html">Demo Page 2</a></li>
+                    <li><a href="demo-3.html">Demo Page 3</a></li>
+                    <li><a href="demo-4.html">Demo Page 4</a></li>
+                    <li><a href="demo-5.html">Demo Page 5</a></li>
+                    <li><a href="demo-6.html">Demo Page 6</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#.">About Us <i class="fa-solid fa-angle-down"></i></a>
+                <div class="menu-subs menu-column-1">
+                  <ul>
+                    <li><a href="about-1.html">About Page 1</a></li>
+                    <li><a href="about-2.html">About Page 2</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#.">Services <i class="fa-solid fa-angle-down"></i></a>
+                <div class="menu-subs menu-column-1">
+                  <ul>
+                    <li><a href="service-page-1.html">Service Page 1</a></li>
+                    <li><a href="service-page-2.html">Service Page 2</a></li>
+                    <li><a href="service-page-3.html">Service Page 3</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#.">Portfolio <i class="fa-solid fa-angle-down"></i></a>
+                <div class="menu-subs menu-column-1">
+                  <ul>
+                    <li><a href="portfolio.html">Portfolio Page 1</a></li>
+                    <li><a href="portfolio-2.html">Portfolio Page 2</a></li>
+                    <li><a href="portfolio-3.html">Portfolio Page 3</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#.">Blogs <i class="fa-solid fa-angle-down"></i></a>
+                <div class="menu-subs menu-column-1">
+                  <ul>
+                    <li><a href="blogs.html">Blog Page</a></li>
+                    <li><a href="blogs-details.html">Blog Details</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#.">Contact Us <i class="fa-solid fa-angle-down"></i></a>
+                <div class="menu-subs menu-column-1">
+                  <ul>
+                    <li><a href="contact-1.html">Contact Page 1</a></li>
+                    <li><a href="contact-2.html">Contact Page 2</a></li>
 
-            <li class="darkmodeswitch">
-              <div class="switch-wrapper"> <label class="switch" for="blueket"> <input type="checkbox" id="blueket" />
-                  <span class="slider round"></span> </label> </div>
-            </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="darkmodeswitch">
+                <div class="switch-wrapper"> <label class="switch" for="blueket"> <input type="checkbox" id="blueket" />
+                    <span class="slider round"></span> </label> </div>
+              </li>
             </ul>
           </nav>
         </div>
@@ -61,8 +121,8 @@
           <ul>
             <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
                 class="menu-icon"><i class="fa-solid fa-phone"></i></a> </li>
-            <li><a href="https://wa.me/message/2OUD6OQBC7CLC1?src?=qr" class="sw-btn sw-orange-btn header-btn">Get
-                Started <i class="fa-solid fa-arrow-trend-up"></i></a></li>
+            <li><a href="contact-1.html" class="sw-btn sw-orange-btn header-btn">Get Started <i
+                  class="fa-solid fa-arrow-trend-up"></i></a></li>
             <li><button type="button" class="menu-mobile-toggle"> <span></span> <span></span> <span></span>
                 <span></span> </button> </li>
           </ul>
@@ -75,7 +135,7 @@
   <div class="offcanvas offcanvas-end sidebar-offcanvas" tabindex="-1" id="offcanvasRight">
     <div class="offcanvas-header">
       <div class="sidebarlogooff">
-        <img src="images/logo-black.svg" alt="logo" class="sidewhitelogo">
+        <img src="images/logo-white.svg" alt="logo" class="sidewhitelogo">
         <img src="images/logo-black.svg" alt="logo" class="sidedarklogo">
       </div>
       <div class="cbtn">
@@ -96,9 +156,9 @@
           <div class="contactnumberdiv mt30">
             <p class="mb5 linktitle">Send Us an Email:</p>
             <a href="#"><i class="fa-solid fa-envelope mr10"></i> <span class="__cf_email__"
-                data-cfemail="e9819ba990869c9b9e8c8b9a809d8cc78a8684">[email&#160;protected]</span></a>
-            <a href="#"><i class="fa-solid fa-envelope mr10"></i> i<span class="__cf_email__"
-                data-cfemail="8de3ebe2cdf4e2f8fffae8effee4f9e8a3eee2e0">[email&#160;protected]</span></a>
+                data-cfemail="11796351687e6463667473627865743f727e7c">[email&#160;protected]</span></a>
+            <a href="#"><i class="fa-solid fa-envelope mr10"></i> <span class="__cf_email__"
+                data-cfemail="ec85828a83ac9583999e9b898e9f859889c28f8381">[email&#160;protected]</span></a>
           </div>
           <div class="social-link-sw mt30">
             <span class="linktitle">Follow Us</span>
@@ -111,32 +171,6 @@
             </ul>
           </div>
         </div>
-        <div class="blueketcotactform-sw-blogpage mt50">
-          <span class="scriptheading mb30">Request a Quote</span>
-          <form class="row">
-            <div class="col-lg-12 mb20">
-              <div class="form-inputs">
-                <input type="text" class="form-controls" placeholder="Name">
-              </div>
-            </div>
-            <div class="col-lg-12 mb20">
-              <div class="form-inputs">
-                <input type="email" class="form-controls" placeholder="Mobile Number">
-              </div>
-            </div>
-            <div class="col-lg-12 mb20">
-              <div class="form-inputs">
-                <textarea class="form-controls sw-textarea" rows="3" placeholder="Enter Message"></textarea>
-              </div>
-            </div>
-            <div class="col-lg-12 mb20 mt20">
-              <div class="form-inputs plus-terms">
-                <button type="submit" class="sw-btn sw-orange-btn">Submit <i
-                    class="fa-solid fa-arrow-trend-up"></i></button>
-              </div>
-            </div>
-          </form>
-        </div>
       </div>
     </div>
   </div>
@@ -145,14 +179,14 @@
   <!--breadcrum-area -->
   <section class="breadcrum-area contactuspage bg-efffect-2">
     <div class="container index-up">
-      <div class="row">
+      <div class="row justify-content-between">
         <div class="col-lg-6">
           <div class="breadcrum-area-content">
             <ul class="list-h-styled mb30">
               <li><a href="index.html">Home</a></li>
               <li class="active">Contact</li>
             </ul>
-            <h2 class="mb15">Contact Us</h2>
+            <h2 class="mb15">Advanced Contact Form</h2>
             <p>If you have questions, need support, or anything else, please fill the form below. We are here to help
               you.</p>
           </div>
@@ -164,6 +198,7 @@
     </div>
   </section>
   <!--/breadcrum-area -->
+
   <!-- contact block -->
   <section class="contactuspageinfo section-space">
     <div class="container">
@@ -183,9 +218,9 @@
                   <div class="contactnumberdiv mt30">
                     <p class="mb5 linktitle">Send Us an Email:</p>
                     <a href="#"><i class="fa-solid fa-envelope mr10"></i> <span class="__cf_email__"
-                        data-cfemail="bfd7cdffc6d0cacdc8daddccd6cbda91dcd0d2">[email&#160;protected]</span></a>
+                        data-cfemail="8de5ffcdf4e2f8fffae8effee4f9e8a3eee2e0">[email&#160;protected]</span></a>
                     <a href="#"><i class="fa-solid fa-envelope mr10"></i> <span class="__cf_email__"
-                        data-cfemail="5c35323a331c2533292e2b393e2f352839723f3331">[email&#160;protected]</span></a>
+                        data-cfemail="61080f070e21180e1413160403120815044f020e0c">[email&#160;protected]</span></a>
                   </div>
                   <div class="contactnumberdiv mt30">
                     <p class="mb5 linktitle">Chat on Skype:</p>
@@ -311,7 +346,8 @@
                     <button type="submit" class="sw-btn sw-orange-btn">Submit <i
                         class="fa-solid fa-paper-plane"></i></button>
                     <p class="sw-form-term">By submitting this, you agree to our <a href="#">Terms and Conditions</a> &
-                      <a href="#">Privacy Policy</a>.</p>
+                      <a href="#">Privacy Policy</a>.
+                    </p>
                   </div>
                 </div>
               </form>
@@ -323,8 +359,11 @@
   </section>
   <!-- /contact block -->
 
+
+
+
   <!-- sw-blueket-footer -->
-  <footer class="footer-design-sw pt80 pb30 bkbg2 footerbg1 black-bg-1">
+  <footer class="footer-design-sw pt80 pb30 text-white swdarkfooter">
     <div class="container index-up">
       <div class="row justify-content-between">
         <div class="col-lg-4">
@@ -333,13 +372,19 @@
               <a href="#"><img src="images/logo-black.svg" alt="logo" class="light"></a>
               <a href="#"><img src="images/logo-black.svg" alt="logo" class="dark"></a>
             </div>
-            <div class="career-link-btn-sw mt60">
-              <span class="linktitle">Career</span>
-              <a href="#">
-                <div class="carrerlinkandimg mt10"><img src="images/icons/career.png" alt="career" class="w32">We’re
-                  Hiring!</div>
-              </a>
+            <!-- contact -->
+            <div class="contactinkediv mt50">
+              <span class="linktitle">Send Us an Email:</span>
+              <a href="/cdn-cgi/l/email-protection#442d2a222b043d2b3136332126372d30216a272b29"><span
+                  class="__cf_email__"
+                  data-cfemail="e68f888089a69f899394918384958f9283c885898b">[email&#160;protected]</span></a>
             </div>
+            <div class="contactinkediv mt30">
+              <span class="linktitle">Give Us a Call:</span>
+              <a href="tel:+911234567900">91 123 4567 890</a>
+            </div>
+            <!-- /contact -->
+            <!-- social link -->
             <div class="social-link-sw mt40">
               <span class="linktitle">Follow Us</span>
               <ul class="footer-social-sw mt10 sw-hover-2">
@@ -350,97 +395,51 @@
                 <li> <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a> </li>
               </ul>
             </div>
+            <!--/social link -->
           </div>
         </div>
-        <div class="col-lg-6 mmt40">
-          <!-- subscription -->
-          <div class="ft-address-blocks">
-            <div class="subsc-div-sw">
-              <h4>Ready to Move Forward and Get the Latest Insights.</h4>
-              <div class="blueketsubscriptionbox mt30">
-                <form>
-                  <div class="form-inputs subsform">
-                    <input type="tel" class="form-controls" placeholder="Enter Your Email">
-                    <button type="submit" class="sw-orange-btn"><i class="fa-solid fa-paper-plane"></i></button>
-                  </div>
-                </form>
+
+        <div class="col-lg-6">
+          <div class="row mt40 sw-hover-1">
+            <div class="col-lg-4 col-md-6 col-6 mt30">
+              <div class="footer-links">
+                <h5 class="linktitle">Company Links</h5>
+                <ul class="mt20">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Media Coverage</a></li>
+                  <li><a href="#">Referral Program</a></li>
+                </ul>
               </div>
             </div>
-          </div>
-          <!-- /subscription -->
-          <!-- award -->
-          <div class="award-badge-block mt50">
-            <a href="#"><img src="images/icons/award-badge-1.png" alt="icon"></a>
-            <a href="#"><img src="images/icons/award-badge-2.png" alt="icon"></a>
-            <a href="#"><img src="images/icons/award-badge-3.png" alt="icon"></a>
-            <a href="#"><img src="images/icons/award-badge-5.png" alt="icon"></a>
-            <a href="#"><img src="images/icons/award-badge-6.png" alt="icon"></a>
-            <a href="#"><img src="images/icons/award-badge-7.png" alt="icon"></a>
-          </div>
-          <!--/award -->
-        </div>
-      </div>
-      <!-- footer links column -->
-      <div class="footerbreak swhr">
-        <div class="row mt40 sw-hover-1">
-          <div class="col-lg-3 col-md-6 col-6 mt30">
-            <div class="footer-links">
-              <h5 class="linktitle">Company Links</h5>
-              <ul class="mt20">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Our Team</a></li>
-                <li><a href="#">Media Coverage</a></li>
-                <li><a href="#">Referral Program</a></li>
-                <li><a href="#">Case Studies</a></li>
-                <li><a href="#">Client Testimonials</a></li>
-              </ul>
+            <div class="col-lg-4 col-md-6 col-6 mt30">
+              <div class="footer-links">
+                <h5 class="linktitle">Technologies</h5>
+                <ul class="mt20">
+                  <li><a href="#">React JS</a></li>
+                  <li><a href="#">Laravel</a></li>
+                  <li><a href="#">CodeIgniter</a></li>
+                  <li><a href="#">Node JS</a></li>
+                  <li><a href="#">WordPress</a></li>
+                  <li><a href="#">Magento</a></li>
+
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-6 mt30">
-            <div class="footer-links">
-              <h5 class="linktitle">Technologies</h5>
-              <ul class="mt20">
-                <li><a href="#">React JS</a></li>
-                <li><a href="#">Laravel</a></li>
-                <li><a href="#">CodeIgniter</a></li>
-                <li><a href="#">Node JS</a></li>
-                <li><a href="#">WordPress</a></li>
-                <li><a href="#">Magento</a></li>
-                <li><a href="#">ReactJS</a></li>
-                <li><a href="#">KnockoutJs</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-6 mt30">
-            <div class="footer-links">
-              <h5 class="linktitle">Our Services</h5>
-              <ul class="mt20">
-                <li><a href="#">Web Application</a></li>
-                <li><a href="#">Mobile App Development</a></li>
-                <li><a href="#">Microsoft Development</a></li>
-                <li><a href="#">Front End Development</a></li>
-                <li><a href="#">eCommerce Development</a></li>
-                <li><a href="#">Cross-platform App</a></li>
-                <li><a href="#">Opensource Development</a></li>
-                <li><a href="#">UI/UX Design</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-6 mt30">
-            <div class="footer-links">
-              <h5 class="linktitle">On Demand Solutions</h5>
-              <ul class="mt20">
-                <li><a href="#">Taxi App</a></li>
-                <li><a href="#">Healthcare App</a></li>
-                <li><a href="#">Live Streaming App</a></li>
-                <li><a href="#">Food Delivering App</a></li>
-                <li><a href="#">ELearning App</a></li>
-                <li><a href="#">eWallet App Solutions</a></li>
-                <li><a href="#">Fantasy Sports App</a></li>
-                <li><a href="#">Grocery Delivery App</a></li>
-              </ul>
+            <div class="col-lg-4 col-md-6 col-6 mt30">
+              <div class="footer-links">
+                <h5 class="linktitle">Our Services</h5>
+                <ul class="mt20">
+                  <li><a href="#">Web Application</a></li>
+                  <li><a href="#">Mobile App Development</a></li>
+                  <li><a href="#">Microsoft Development</a></li>
+                  <li><a href="#">Front End Development</a></li>
+                  <li><a href="#">eCommerce Development</a></li>
+                  <li><a href="#">Cross-platform App</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -451,7 +450,10 @@
           <div class="col-lg-12">
             <div class="footercreditnote sw-hover-1">
               <div>
-                <p>© 2022 Developed and designed By <a href="#">CODEIN DEVELOPERS</a></p>
+                <p>&copy;
+                  <script>new Date().getFullYear() > 2012 && document.write("" + new Date().getFullYear());</script> <a
+                    href="#"> Codein Developers | All rights reserved</a>
+                </p>
               </div>
               <div class="linkftsw">
                 <ul class="list-h-styled">
@@ -467,6 +469,7 @@
     </div>
   </footer>
   <!-- /sw-blueket-footer -->
+
   <!--Plugin Js Files -->
   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
   <script src="js/jquery.min.js"></script>
