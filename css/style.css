@@ -164,8 +164,8 @@ a {
   --gradient-7: linear-gradient(225deg, #f2f1ff 0%, #fff7ec 100%);
 }
 .section-space {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .mr10 {
   margin-right: 10px;
@@ -3769,7 +3769,7 @@ a.btgs {
   display: grid;
   align-items: center;
   justify-content: center;
-  padding: 170px 0 100px;
+  padding: 170px 0 10px;
   overflow-x: hidden;
   background: var(--gradient-7);
 }
