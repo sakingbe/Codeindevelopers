@@ -503,7 +503,7 @@
   }
   .section-space {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
   .pb300 {
     padding-bottom: 190px !important;
