@@ -3765,11 +3765,11 @@ a.btgs {
   top: -3px;
 }
 .demo-5-hero {
-  min-height: 950px;
+  min-height: 90px;
   display: grid;
   align-items: center;
   justify-content: center;
-  padding: 170px 0 10px;
+  padding: 170px 0 30px;
   overflow-x: hidden;
   background: var(--gradient-7);
 }
