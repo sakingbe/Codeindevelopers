@@ -1770,7 +1770,7 @@ img {
 .imageoutbox {
   margin-top: -200px;
 }
-.blueket-card-noise {
+.codeindevelopers-card-noise {
   background: var(--bg-b2);
   border: 1px solid var(--bs-gray-300);
 }
@@ -2188,7 +2188,7 @@ img {
   width: 100%;
   height: 90px;
 }
-.blueketcotactform-sw {
+.codeindeveloperscotactform-sw {
   background: var(--bg-b2);
   box-shadow: 0 10px 20px -5px rgb(0 0 0/10%);
   padding: 40px;
@@ -2690,7 +2690,7 @@ p + p {
   letter-spacing: 1px;
   border-bottom: 1px solid hsl(0deg 0% 100%/0%);
 }
-.blueketworktile img {
+.codeindevelopersworktile img {
   width: 100%;
 }
 .portfolioimg {
@@ -2809,19 +2809,19 @@ p + p {
 .blog-content-part ul {
   margin-bottom: 30px;
 }
-.blueketlist {
+.codeindeveloperslist {
   padding-left: 20px;
 }
-.blueketlist li {
+.codeindeveloperslist li {
   padding: 0 0 0 5px;
 }
-.blueketlist.number li {
+.codeindeveloperslist.number li {
   list-style-type: decimal;
 }
-.blueketlist.licircle li {
+.codeindeveloperslist.licircle li {
   list-style-type: circle;
 }
-.blueketlist li + li {
+.codeindeveloperslist li + li {
   margin-top: 5px;
 }
 .blog-postinfos span {
@@ -3115,11 +3115,11 @@ a.btgs {
 .img-collage-set {
   position: relative;
 }
-.blueketshape1 {
+.codeindevelopersshape1 {
   background-image: radial-gradient(var(--black-color-1) 2px, transparent 2px);
   background-size: 16px 16px;
 }
-.blueketshape2 {
+.codeindevelopersshape2 {
   background: repeating-linear-gradient(
     -55deg,
     rgba(255, 255, 255, 0) 0.8px,
@@ -3414,7 +3414,9 @@ a.btgs {
   right: -30px;
 }
 .darkmodeswitch2 {
-  position: absolute;top: 20.px; left: 796px;
+  position: absolute;
+  top: 20px;
+  left: 796px;
   bottom: 24px;
   right: -30px;
 }
@@ -4681,32 +4683,32 @@ a.btgs {
     transform: rotate(360deg);
   }
 }
-.blueketform input.error,
-.blueketform select.error,
-.blueketform textarea.error {
+.codeindevelopersform input.error,
+.codeindevelopersform select.error,
+.codeindevelopersform textarea.error {
   border-bottom: 1px solid red;
 }
-.blueketform input.valid,
-.blueketform select.valid,
-.blueketform textarea.valid {
+.codeindevelopersform input.valid,
+.codeindevelopersform select.valid,
+.codeindevelopersform textarea.valid {
   border-bottom: 1px solid #00a759;
 }
-.blueketform input.valid,
-.blueketform textarea.valid {
+.codeindevelopersform input.valid,
+.codeindevelopersform textarea.valid {
   background-image: url(data:image/svg+xml;base64,CjxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgMjQgMjQnPjxwYXRoIGZpbGw9JyMwMGE3NTknIGQ9J00xOC43MSw3LjIxYTEsMSwwLDAsMC0xLjQyLDBMOS44NCwxNC42Nyw2LjcxLDExLjUzQTEsMSwwLDEsMCw1LjI5LDEzbDMuODQsMy44NGExLDEsMCwwLDAsMS40MiwwbDguMTYtOC4xNkExLDEsMCwwLDAsMTguNzEsNy4yMVonLz48L3N2Zz4=);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 20px;
 }
-.blueketform input.error,
-.blueketform textarea.error {
+.codeindevelopersform input.error,
+.codeindevelopersform textarea.error {
   background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0nTGF5ZXJfMScgZGF0YS1uYW1lPSdMYXllciAxJyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nI2ZmMDAwMCcgZD0nTTEyIDJBMTAgMTAgMCAxIDAgMjIgMTIgMTAuMDExMTQgMTAuMDExMTQgMCAwIDAgMTIgMlptMCAxOGE4IDggMCAxIDEgOC04QTguMDA5MTcgOC4wMDkxNyAwIDAgMSAxMiAyMFptMC04LjVhMSAxIDAgMCAwLTEgMXYzYTEgMSAwIDAgMCAyIDB2LTNBMSAxIDAgMCAwIDEyIDExLjVabTAtNGExLjI1IDEuMjUgMCAxIDAgMS4yNSAxLjI1QTEuMjUgMS4yNSAwIDAgMCAxMiA3LjVaJy8+PC9zdmc+);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 20px;
 }
-.blueketform textarea.error,
-.blueketform textarea.valid {
+.codeindevelopersform textarea.error,
+.codeindevelopersform textarea.valid {
   background-position-x: 98%;
   background-position-y: 10px;
 }
