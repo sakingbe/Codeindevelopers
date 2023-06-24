@@ -106,16 +106,16 @@ button:focus {
   outline: none !important;
 }
 .animation,
-.separateweb-btn-grdt1,
-.separateweb-btn-grdt1:hover,
+.codeindevelopers-btn-grdt1,
+.codeindevelopers-btn-grdt1:hover,
 .sticky,
-.separateweb-header,
+.codeindevelopers-header,
 a.sw-links,
 .dskt-logo,
-.separateweb-btn-grdt2,
+.codeindevelopers-btn-grdt2,
 .setps,
 .whatsapp-bg,
-.separateweb-btn,
+.codeindevelopers-btn,
 a,
 .sw-media-crd,
 button,
@@ -724,16 +724,16 @@ html .pb150 {
 .vide-btntitl {
   margin-left: 10px;
 }
-.separateweb-header.sticky .dskt-logo {
+.codeindevelopers-header.sticky .dskt-logo {
   float: left;
   line-height: 70px;
 }
-.separateweb-header.sticky {
+.codeindevelopers-header.sticky {
   -webkit-box-shadow: 0 4px 6px 0 rgb(12 0 46/7%);
   box-shadow: 0 4px 6px 0 rgb(12 0 46/8%);
   height: 70px;
 }
-.separateweb-header.sticky:after {
+.codeindevelopers-header.sticky:after {
   content: "";
   background: rgb(255 255 255/70%);
   -webkit-backdrop-filter: blur(12px);
@@ -746,10 +746,10 @@ html .pb150 {
   width: 100%;
   z-index: 5;
 }
-.sticky .separateweb-list li a.sw-links {
+.sticky .codeindevelopers-list li a.sw-links {
   line-height: 70px !important;
 }
-.separateweb-header {
+.codeindevelopers-header {
   padding: 0 20px;
   height: 85px;
   z-index: 9995;
@@ -768,7 +768,7 @@ html .pb150 {
 .dskt-logo .nav-brand img {
   max-width: 200px;
 }
-.separateweb-nav .separateweb-list li a.sw-links {
+.codeindevelopers-nav .codeindevelopers-list li a.sw-links {
   font-size: 18px;
   color: #08182b;
   font-weight: 500;
@@ -778,7 +778,7 @@ html .pb150 {
   position: relative;
   overflow: hidden;
 }
-.separateweb-nav .separateweb-list li {
+.codeindevelopers-nav .codeindevelopers-list li {
   display: inline-flex;
 }
 .owl-carousel .owl-item img {
@@ -1290,7 +1290,7 @@ button:hover {
   background: #fff;
   color: #ff5723 !important;
 }
-.separateweb-btn {
+.codeindevelopers-btn {
   text-transform: uppercase;
   color: #fff;
   background: #ff5723;
@@ -1302,7 +1302,7 @@ button:hover {
   overflow: hidden;
   border: 1px solid #ff5723;
 }
-.separateweb-btn:hover {
+.codeindevelopers-btn:hover {
   color: #110a32;
 }
 .button--sw > span {
@@ -1316,7 +1316,7 @@ button:hover {
 .vid-btntitl {
   display: flex;
 }
-.separateweb-btn-round {
+.codeindevelopers-btn-round {
   border-radius: 100%;
   width: 60px;
   height: 60px;
@@ -1636,7 +1636,7 @@ a.button:hover {
 .center-btn {
   margin-top: 60px;
 }
-.separateweb-m {
+.codeindevelopers-m {
   display: none;
 }
 .hc-nav-trigger {
@@ -1851,7 +1851,7 @@ ul.pagination li:last-child {
 .frame__demo--current:hover {
   color: #111;
 }
-.separateweb-wrap {
+.codeindevelopers-wrap {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -1892,7 +1892,7 @@ ul.pagination li:last-child {
   background: #ff5723;
   transform: translate3d(0, 101%, 0);
 }
-.marquee__inner-separateweb {
+.marquee__inner-codeindevelopers {
   height: 100%;
   width: 100%;
   transform: translate3d(0, -101%, 0);
@@ -1934,17 +1934,17 @@ ul.pagination li:last-child {
   background-size: cover;
   background-position: 50% 50%;
 }
-.separateweb-text {
+.codeindevelopers-text {
   position: relative;
   width: 180px;
   height: 180px;
   border-radius: 100px;
 }
-.separateweb-text .texts {
+.codeindevelopers-text .texts {
   width: 180px;
   height: 180px;
 }
-.separateweb-text .innerlogo {
+.codeindevelopers-text .innerlogo {
   top: 50%;
   position: absolute;
   transform: translateY(-50%);
@@ -2302,7 +2302,7 @@ html:not(html:hover) .s-e-p-a-r-a-t-e-w-e-b-🤙::after {
   display: flex;
   justify-content: center;
 }
-.separateweb-nav .separateweb-list li a.sw-links {
+.codeindevelopers-nav .codeindevelopers-list li a.sw-links {
   font-size: 17px;
   color: #08182b;
   font-weight: 500;
@@ -2312,12 +2312,12 @@ html:not(html:hover) .s-e-p-a-r-a-t-e-w-e-b-🤙::after {
   position: relative;
   overflow: hidden;
 }
-.separatewebforblock {
+.codeindevelopersforblock {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
 }
-p.infoseparateweb {
+p.infocodeindevelopers {
   color: #404656;
   font-size: 16px;
   line-height: 28px;
@@ -2330,15 +2330,19 @@ p.infoseparateweb {
 .ctwork {
   margin: 80px 0 70px 0;
 }
-.separateweb-nav-cta li {
+.codeindevelopers-nav-cta li {
   display: inline-flex;
   align-items: center;
   align-content: center;
 }
-.white-sw-header.sticky .separateweb-nav .separateweb-list li a.sw-links {
+.white-sw-header.sticky
+  .codeindevelopers-nav
+  .codeindevelopers-list
+  li
+  a.sw-links {
   color: #08182b;
 }
-.white-sw-header .separateweb-nav .separateweb-list li a.sw-links {
+.white-sw-header .codeindevelopers-nav .codeindevelopers-list li a.sw-links {
   color: #fff;
 }
 .white-sw-header .dark-sw {
@@ -2353,7 +2357,7 @@ p.infoseparateweb {
 .white-sw-header.sticky .white-sw {
   display: none;
 }
-.separateweb-image {
+.codeindevelopers-image {
   text-align: center;
 }
 .marquee-item-list {
@@ -2370,25 +2374,25 @@ p.infoseparateweb {
   text-transform: uppercase;
   font-weight: 600;
 }
-.separatewebserviceblock {
+.codeindevelopersserviceblock {
   padding: 60px 40px;
   border-radius: 24px;
   overflow: hidden;
   box-shadow: 0 5px 15px 0 rgb(0 0 0/6%);
 }
-.separateweb-grdt-1 {
+.codeindevelopers-grdt-1 {
   background: #ecf0ff;
 }
-.separateweb-grdt-2 {
+.codeindevelopers-grdt-2 {
   background: #fff5f2;
 }
-.separateweb-grdt-3 {
+.codeindevelopers-grdt-3 {
   background: #fff5f2;
 }
-.separateweb-grdt-4 {
+.codeindevelopers-grdt-4 {
   background: #fff2f4;
 }
-.separateweb-grdt-5 {
+.codeindevelopers-grdt-5 {
   background: #f9f3ff;
 }
 .swserviceimg {
@@ -2466,7 +2470,7 @@ p.infoseparateweb {
   font-size: 16px;
   line-height: 28px;
 }
-.separateweb-menu {
+.codeindevelopers-menu {
   border: 0;
   font-size: 30px;
   background: #ff5723;
@@ -2487,7 +2491,7 @@ p.infoseparateweb {
   position: relative;
   z-index: 9;
 }
-.separteweblogo img {
+.codeindeveloperslogo img {
   width: 200px;
 }
 .swmenulabl {
@@ -2495,14 +2499,14 @@ p.infoseparateweb {
   opacity: 0.8;
   margin: 0 0 10px;
 }
-.separateweb-m-list li {
+.codeindevelopers-m-list li {
   line-height: 40px;
 }
-.separateweb-m-list li a {
+.codeindevelopers-m-list li a {
   font-size: 20px;
   color: #110a32;
 }
-.separateweb-m-list li a i {
+.codeindevelopers-m-list li a i {
   margin: 0 10px 0 0;
 }
 .offcanvas-header {
@@ -2525,16 +2529,16 @@ p.infoseparateweb {
   color: #fff;
   justify-content: center;
 }
-.separateweb-nav {
+.codeindevelopers-nav {
   position: relative;
   z-index: 10;
 }
-.separatewebhranimation,
-.separateweb-scroll-sw,
+.codeindevelopershranimation,
+.codeindevelopers-scroll-sw,
 .ofh {
   overflow: hidden;
 }
-#separateweb-content {
+#codeindevelopers-content {
   overflow: hidden;
 }
 .sw-hom-h-margin {
@@ -2576,10 +2580,10 @@ p.infoseparateweb {
   border-radius: 100%;
   border: 4px solid #fff;
   border-color: #fff transparent #fff transparent;
-  animation: separateweb-dual-ring 1.5s linear infinite;
+  animation: codeindevelopers-dual-ring 1.5s linear infinite;
   margin: 0 auto;
 }
-@keyframes separateweb-dual-ring {
+@keyframes codeindevelopers-dual-ring {
   0% {
     transform: rotate(0deg);
   }
@@ -2596,7 +2600,7 @@ p.infoseparateweb {
   bottom: 8px;
   top: inherit;
 }
-.separateweb-btn {
+.codeindevelopers-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2622,10 +2626,10 @@ input.ctminpt {
   justify-content: start;
   align-items: center;
 }
-.separatewebform input.error {
+.codeindevelopersform input.error {
   border-bottom: 1px solid red;
 }
-.separatewebform input.valid {
+.codeindevelopersform input.valid {
   border-bottom: 1px solid #00a759;
 }
 input[type="number"]::-webkit-inner-spin-button,
@@ -2735,10 +2739,10 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 }
 @media only screen and (max-width: 1080px) {
-  .separateweb-m {
+  .codeindevelopers-m {
     display: block;
   }
-  .separateweb-nav {
+  .codeindevelopers-nav {
     display: none;
   }
   .mobilenav {
@@ -2773,13 +2777,13 @@ input[type="number"]::-webkit-outer-spin-button {
     margin: 0 auto;
     text-align: center;
   }
-  .separatewebforblock {
+  .codeindevelopersforblock {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
   }
   @media (max-width: 992px) {
-    .separateweb {
+    .codeindevelopers {
       transform: translate3d(0, 0, 0) !important;
     }
   }
@@ -2848,13 +2852,13 @@ input[type="number"]::-webkit-outer-spin-button {
     width: 150px;
     height: 150px;
   }
-  .separateweb-text {
+  .codeindevelopers-text {
     position: relative;
     width: 150px;
     height: 150px;
     border-radius: 100px;
   }
-  .separateweb-text .texts {
+  .codeindevelopers-text .texts {
     width: 150px;
     height: 150px;
   }
@@ -2884,7 +2888,7 @@ input[type="number"]::-webkit-outer-spin-button {
   .swheadertext {
     text-align: center;
   }
-  .separateweb-btn-sw {
+  .codeindevelopers-btn-sw {
     display: flex;
     justify-content: center;
   }
@@ -2923,7 +2927,7 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 }
 @media only screen and (max-width: 767px) {
-  .separatewebserviceblock {
+  .codeindevelopersserviceblock {
     padding: 40px 20px;
   }
   .serviceslist {
@@ -2966,13 +2970,13 @@ input[type="number"]::-webkit-outer-spin-button {
     width: 150px;
     height: 150px;
   }
-  .separateweb-text {
+  .codeindevelopers-text {
     position: relative;
     width: 150px;
     height: 150px;
     border-radius: 100px;
   }
-  .separateweb-text .texts {
+  .codeindevelopers-text .texts {
     width: 150px;
     height: 150px;
   }
@@ -3054,11 +3058,11 @@ input[type="number"]::-webkit-outer-spin-button {
   footer a {
     font-size: 14px;
   }
-  .SeparateWeb-rights {
+  .codeindevelopers-rights {
     font-size: 14px;
     text-align: center;
   }
-  .separatewebmobileheader {
+  .codeindevelopersmobileheader {
     padding: 0;
   }
   .ctmlabl {
@@ -3077,7 +3081,7 @@ input[type="number"]::-webkit-outer-spin-button {
     font-size: 22px;
     font-weight: 300;
   }
-  .separateweb-btn {
+  .codeindevelopers-btn {
     font-size: 16px;
     padding: 0 28px;
     letter-spacing: 0;
@@ -3112,7 +3116,7 @@ input[type="number"]::-webkit-outer-spin-button {
     font-size: 18px;
     line-height: 28px;
   }
-  .separateweb-image {
+  .codeindevelopers-image {
     margin-top: 30px;
   }
   .marquee span,
