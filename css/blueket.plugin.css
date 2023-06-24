@@ -3091,8 +3091,8 @@ img.mfp-img {
 .fa-indent:before {
   content: "\f03c";
 }
-.fa-indian-rupee-sign:before,
-.fa-indian-rupee:before,
+.fa-n-rupee-sign:before,
+.fa-n-rupee:before,
 .fa-inr:before {
   content: "\e1bc";
 }
