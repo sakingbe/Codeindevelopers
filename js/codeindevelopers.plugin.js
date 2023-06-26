@@ -3854,30 +3854,8 @@
       d
     );
   });
-function loadGoogleAnalytics() {
-  var ga = document.createElement("script");
-  ga.type = "text/javascript";
-  ga.async = true;
-  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-K8KGMY4X7T";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(ga, s);
-}
-loadGoogleAnalytics();
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-  dataLayer.push(arguments);
-}
-gtag("js", new Date());
-gtag("config", "G-K8KGMY4X7T");
-!(function (a) {
-  "function" == typeof define && define.amd
-    ? define(["jquery"], a)
-    : a(
-        "object" == typeof exports
-          ? require("jquery")
-          : window.jQuery || window.Zepto
-      );
-})(function (a) {
+
+(function (a) {
   var b,
     c,
     d,
