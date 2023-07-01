@@ -44,7 +44,7 @@
     line-height: 60px;
   }
   .pricemain {
-    font-size: 25px;
+    font-size: 35px;
   }
   .conactinfoblock .icondiv {
     height: 35px;
@@ -503,7 +503,7 @@
   }
   .section-space {
     padding-top: 60px;
-    padding-bottom: 0px;
+    padding-bottom: 60px;
   }
   .pb300 {
     padding-bottom: 190px !important;
@@ -626,7 +626,10 @@
     font-size: 55px;
     line-height: 75px;
   }
-
+  .demo-1-hero {
+    min-height: 700px;
+    margin-bottom: 70px;
+  }
   .sws5 {
     left: 13%;
     top: 60%;
@@ -914,7 +917,7 @@
     grid-gap: 30px;
   }
   .text-clips h1 {
-    font-size: 40px;
+    font-size: 50px;
     line-height: 60px;
   }
   .followaccounts {
@@ -1099,5 +1102,37 @@
   }
   .followaccounts .mediainfoblock p {
     font-size: 14px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .form-btm-set {
+    padding: 20px 10px;
+    margin-top: 60px;
+  }
+  .icon-setss {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .icon-txt p {
+    font-size: 15px;
+  }
+  .p-head-sw {
+    padding: 0 20px;
+  }
+  .p-btn-cta-sw {
+    padding: 0 20px;
+  }
+  .what-in-plan-sw {
+    padding: 30px 20px 0;
+  }
+  .list-h-styled li:last-child {
+    margin-right: 0;
+  }
+  .row-blocks {
+    padding: 30px 20px;
+  }
+  .sw-card {
+    padding: 20px;
   }
 }
