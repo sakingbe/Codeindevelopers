@@ -164,8 +164,8 @@ a {
   --gradient-7: linear-gradient(225deg, #f2f1ff 0%, #fff7ec 100%);
 }
 .section-space {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 .mr10 {
   margin-right: 10px;
