@@ -45,6 +45,7 @@
   }
   .pricemain {
     font-size: 35px;
+     text-align: center;
   }
   .conactinfoblock .icondiv {
     height: 35px;
@@ -502,8 +503,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .section-space {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
   .pb300 {
     padding-bottom: 190px !important;
