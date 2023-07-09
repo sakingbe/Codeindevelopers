@@ -1,3 +1,9 @@
+
+
+
+z-index: 2147483647;
+
+
 <form">
     <p>
         <label>Your Name: <input type="text" name="name" /></label>
@@ -114,3 +120,49 @@
     </div>
     </div>
     </section>
+
+
+
+
+
+    .marquee-item-list {
+    display: inline-flex;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 20px 0;
+    }
+    .marquee-item-list li {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 35px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+    .marquee-item-list li {
+    font-size: 22px;
+    }
+    .marquee-item-list li {
+    font-size: 25px;
+    }
+    .marquee-item-list li {
+    font-size: 20px;
+    }
+    .marquee__inner {
+    height: 100%;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    position: relative;
+    animation: sw-marquee 15s linear infinite;
+    will-change: transform;
+    }
+    @keyframes sw-marquee {
+    to {
+    transform: translate3d(-50%, 0, 0);
+    }
+    }
+    .marquee__inner-codeindevelopers {
+    height: 100%;
+    width: 100%;
+    transform: translate3d(0, -101%, 0);

@@ -3768,7 +3768,7 @@ a.btgs {
   display: grid;
   align-items: center;
   justify-content: center;
-  padding: 170px 0 100px;
+  padding: 170px 0 1px;
   overflow-x: hidden;
   background: var(--gradient-7);
 }
@@ -5140,3 +5140,36 @@ a.btgs {
 .innerheadbg {
   background-position: center center !important;
 }
+
+ .marquee-item-list {
+    display: inline-flex;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 20px 0;
+    }
+    .marquee-item-list li {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 35px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+    .marquee-item-list li {
+    font-size: 30px;
+    }
+    .marquee__inner {
+    height: 100%;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    position: relative;
+    animation: sw-marquee 15s linear infinite;
+    will-change: transform;
+    }
+    @keyframes sw-marquee {
+    to {
+    transform: translate3d(-50%, 0, 0);
+    }
+  }
+    
