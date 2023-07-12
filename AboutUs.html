@@ -9,7 +9,8 @@
     <link rel="prerender" href="https://codeindev.com.ng">
     <meta name="page-topic" content="Web Design ">
     <meta name="author" content="codeindevelopers">
-    <meta name="description"content="Web Design, App Development & Digital Marketing  Lagos. codeindevelopers is Leading Web Development & App Company in Lagos.">
+    <meta name="description"
+        content="Web Design, App Development & Digital Marketing  Lagos. codeindevelopers is Leading Web Development & App Company in Lagos.">
     <meta name="keywords" content="Web Design, UI/UX Design, Graphic Design service in Lagos">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="#">
@@ -38,20 +39,22 @@
     <link rel="canonical" href="https://codeindev.com.ng/aboutus.html/">
     <meta name="distribution" content="global">
     <!--Website Favicon Logo-->
-     <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">                    
- <!--Website Favicon Logo-->
+    <link rel="manifest" href="/site.webmanifest">
+    <!--Website Favicon Logo-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/codeindevelopers.plugin.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap"
         rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/colormode.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -95,7 +98,7 @@
 
                 <div class="header-item-right headeraction">
                     <ul>
-                       
+
                         <li><a href="contact-us" class="sw-btn sw-orange-btn header-btn">Contact Us <i
                                     class="fa-solid fa-arrow-trend-up"></i></a></li>
                         <li><button type="button" class="menu-mobile-toggle"> <span></span> <span></span> <span></span>
@@ -396,13 +399,15 @@
                             <a href="#"><img src="images/logo-black.svg" alt="logo" class="dark"></a>
                         </div>
 
-                    <div class="contactinkediv mt50">
-                        <span class="linktitle">Send Us an Email:</span>
-                        <a href="mailto:info@codeindevelopers.com.ng"><i class="fa-solid fa-envelope mr10"></i>Admin</a>
-                    </div>
-                    <div class="contactinkediv mt530"> <a href="mailto:samuelmayowa33@gmail.com"><i class="fa-solid fa-envelope mr10"></i>
-                            Sales</a>
-                    </div>
+                        <div class="contactinkediv mt50">
+                            <span class="linktitle">Send Us an Email:</span>
+                            <a href="mailto:info@codeindevelopers.com.ng"><i
+                                    class="fa-solid fa-envelope mr10"></i>Admin</a>
+                        </div>
+                        <div class="contactinkediv mt530"> <a href="mailto:samuelmayowa33@gmail.com"><i
+                                    class="fa-solid fa-envelope mr10"></i>
+                                Sales</a>
+                        </div>
                         <div class="contactinkediv mt30">
                             <span class="linktitle">Give Us a Call:</span>
                             <a href="tel:07043774402"><i class="fa-solid fa-tty mr10"></i>Give us a call</a>
@@ -480,6 +485,79 @@
                 </div>
             </div>
     </footer>
+    <div class="fixed pin-l pin-b p-6 sm:p-10 z-100">
+        <div class="js-cookie-consent bg-white w-full sm:w-auto rounded-lg shadow-md p-6">
+
+            <div class="w-16 mx-auto relative -mt-10 mb-3 ">
+                <img class="-mt-1" src="assets\images\cookies.svg" alt="cookie">
+            </div>
+
+            <span
+                class="cookie-consent__message w-full sm:w-48  block font-lf leading-normal text-grey-darkest text-xs mb-3">
+                We care about your data, and we'd love to use cookies to make your experience better.
+            </span>
+
+            <div class="flex items-center justify-between">
+                <a class="font-lf text-xs text-grey-dark mr-1" href="privacy-policy.html">Privacy Policy</a>
+                <button
+                    class="js-cookie-consent-agree bg-lf-teal trans text-xs hover:bg-lf-teal-dark rounded inline-block shadow px-8 py-2 text-white font-lf-bold cursor-pointer">
+                    Ok
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+
+        window.laravelCookieConsent = (function () {
+
+            const COOKIE_VALUE = 1;
+            const COOKIE_DOMAIN = 'lottiefiles.com';
+
+            function consentWithCookies() {
+                setCookie('lottiefiles_cookie_consent', COOKIE_VALUE, 7300);
+                hideCookieDialog();
+            }
+
+            function cookieExists(name) {
+                return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_VALUE) !== -1);
+            }
+
+            function hideCookieDialog() {
+                const dialogs = document.getElementsByClassName('js-cookie-consent');
+
+                for (let i = 0; i < dialogs.length; ++i) {
+                    dialogs[i].style.display = 'none';
+                }
+            }
+
+            function setCookie(name, value, expirationInDays) {
+                const date = new Date();
+                date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value
+                    + ';expires=' + date.toUTCString()
+                    + ';domain=' + COOKIE_DOMAIN
+                    + ';path=/'
+                    + '';
+            }
+
+            if (cookieExists('lottiefiles_cookie_consent')) {
+                hideCookieDialog();
+            }
+
+            const buttons = document.getElementsByClassName('js-cookie-consent-agree');
+
+            for (let i = 0; i < buttons.length; ++i) {
+                buttons[i].addEventListener('click', consentWithCookies);
+            }
+
+            return {
+                consentWithCookies: consentWithCookies,
+                hideCookieDialog: hideCookieDialog
+            };
+        })();
+    </script>
 
 
     <script src="js/jquery.min.js"></script>

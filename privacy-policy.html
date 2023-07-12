@@ -57,6 +57,741 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/colormode.css" rel="stylesheet">
+    <style>
+        a {
+            background-color: transparent
+        }
+
+        img {
+            border-style: none
+        }
+
+        button,
+        input,
+        select {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0
+        }
+
+        button,
+        input {
+            overflow: visible
+        }
+
+        button,
+        select {
+            text-transform: none
+        }
+
+        [type=button],
+        [type=reset],
+        [type=submit],
+        button {
+            -webkit-appearance: button
+        }
+
+        html {
+            box-sizing: border-box;
+            font-family: sans-serif
+        }
+
+        *,
+        :after,
+        :before {
+            box-sizing: inherit
+        }
+
+        button {
+            background: transparent;
+            padding: 0
+        }
+
+        *,
+        :after,
+        :before {
+            border: 0 solid #dae1e7
+        }
+
+        img {
+            border-style: solid
+        }
+
+        img {
+            height: auto;
+            max-width: 100%
+        }
+
+        [role=button],
+        button {
+            cursor: pointer
+        }
+
+        .bg-white56 {
+            background-color: #fff
+        }
+
+        .bg-lf-teal {
+            background-color: #df5211
+        }
+
+        .rounded {
+            border-radius: .25rem
+        }
+
+        .rounded-lg {
+            border-radius: .6rem
+        }
+
+        .cursor-pointer {
+            cursor: pointer
+        }
+
+        .block {
+            display: block
+        }
+
+        .inline-block {
+            display: inline-block
+        }
+
+        .flex {
+            display: flex
+        }
+
+        .items-center {
+            align-items: center
+        }
+
+        .justify-between {
+            justify-content: space-between
+        }
+
+        .font-lf-bold {
+            font-family: averta_stdbold
+        }
+
+        .leading-normal {
+            line-height: 1.5
+        }
+
+        .mr-1 {
+            margin-right: .25rem
+        }
+
+        .mb-3 {
+            margin-bottom: .75rem
+        }
+
+        .-mt-1 {
+            margin-top: -.25rem
+        }
+
+        .-mt-10 {
+            margin-top: -2.5rem
+        }
+
+        .p-6 {
+            padding: 1.5rem
+        }
+
+        .py-2 {
+            padding-bottom: .5rem;
+            padding-top: .5rem
+        }
+
+        .px-8 {
+            padding-left: 2rem;
+            padding-right: 2rem
+        }
+
+        .fixed {
+            position: fixed
+        }
+
+        .relative {
+            position: relative
+        }
+
+        .pin-b {
+            bottom: 0
+        }
+
+        .pin-l {
+            left: 0
+        }
+
+        .shadow {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1)
+        }
+
+        .shadow-md {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08)
+        }
+
+        .text-grey-darkest {
+            color: #3d4852
+        }
+
+        .text-grey-dark {
+            color: #8795a1
+        }
+
+        .text-white {
+            color: #fff
+        }
+
+        .text-xs {
+            font-size: .75rem
+        }
+
+        .w-16 {
+            width: 4rem
+        }
+
+        .w-full {
+            width: 100%
+        }
+
+        .z-100 {
+            z-index: 100
+        }
+
+        @media (min-width: 640px) {
+            body {
+                margin-top: 80px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            body {
+                margin-top: 88px
+            }
+        }
+
+        a {
+            text-decoration: none
+        }
+
+        .cookie-consent__message {
+            font-family: averta_stdregular
+        }
+
+        @media (min-width: 576px) {
+            .sm\:rounded-xl {
+                border-radius: .75rem
+            }
+
+            .sm\:rounded-2xl {
+                border-radius: 1rem
+            }
+
+            .sm\:border-none {
+                border-style: none
+            }
+
+            .sm\:border-2 {
+                border-width: 2px
+            }
+
+            .sm\:block {
+                display: block
+            }
+
+            .sm\:inline-block {
+                display: inline-block
+            }
+
+            .sm\:inline {
+                display: inline
+            }
+
+            .sm\:hidden {
+                display: none
+            }
+
+            .sm\:flex {
+                display: flex
+            }
+
+            .sm\:flex-row {
+                flex-direction: row
+            }
+
+            .sm\:flex-row-reverse {
+                flex-direction: row-reverse
+            }
+
+            .sm\:flex-col {
+                flex-direction: column
+            }
+
+            .sm\:items-start {
+                align-items: flex-start
+            }
+
+            .sm\:items-end {
+                align-items: flex-end
+            }
+
+            .sm\:justify-start {
+                justify-content: flex-start
+            }
+
+            .sm\:justify-end {
+                justify-content: flex-end
+            }
+
+            .sm\:justify-center {
+                justify-content: center
+            }
+
+            .sm\:justify-between {
+                justify-content: space-between
+            }
+
+            .sm\:font-lf-regular {
+                font-family: averta_stdregular
+            }
+
+            .sm\:h-8 {
+                height: 2rem
+            }
+
+            .sm\:h-12 {
+                height: 3rem
+            }
+
+            .sm\:h-16 {
+                height: 4rem
+            }
+
+            .sm\:h-20 {
+                height: 5rem
+            }
+
+            .sm\:h-32 {
+                height: 8rem
+            }
+
+            .sm\:h-auto {
+                height: auto
+            }
+
+            .sm\:m-5 {
+                margin: 1.25rem
+            }
+
+            .sm\:mx-0 {
+                margin-left: 0;
+                margin-right: 0
+            }
+
+            .sm\:my-1 {
+                margin-bottom: .25rem;
+                margin-top: .25rem
+            }
+
+            .sm\:mx-1 {
+                margin-left: .25rem;
+                margin-right: .25rem
+            }
+
+            .sm\:mx-2 {
+                margin-left: .5rem;
+                margin-right: .5rem
+            }
+
+            .sm\:mx-3 {
+                margin-left: .75rem;
+                margin-right: .75rem
+            }
+
+            .sm\:mx-4 {
+                margin-left: 1rem;
+                margin-right: 1rem
+            }
+
+            .sm\:mx-5 {
+                margin-left: 1.25rem;
+                margin-right: 1.25rem
+            }
+
+            .sm\:mt-0 {
+                margin-top: 0
+            }
+
+            .sm\:mr-0 {
+                margin-right: 0
+            }
+
+            .sm\:mb-0 {
+                margin-bottom: 0
+            }
+
+            .sm\:mt-1 {
+                margin-top: .25rem
+            }
+
+            .sm\:mb-2 {
+                margin-bottom: .5rem
+            }
+
+            .sm\:mb-3 {
+                margin-bottom: .75rem
+            }
+
+            .sm\:mb-4 {
+                margin-bottom: 1rem
+            }
+
+            .sm\:mb-5 {
+                margin-bottom: 1.25rem
+            }
+
+            .sm\:ml-5 {
+                margin-left: 1.25rem
+            }
+
+            .sm\:mb-6 {
+                margin-bottom: 1.5rem
+            }
+
+            .sm\:ml-6 {
+                margin-left: 1.5rem
+            }
+
+            .sm\:ml-8 {
+                margin-left: 2rem
+            }
+
+            .sm\:mr-10 {
+                margin-right: 2.5rem
+            }
+
+            .sm\:mb-10 {
+                margin-bottom: 2.5rem
+            }
+
+            .sm\:mt-12 {
+                margin-top: 3rem
+            }
+
+            .sm\:mb-16 {
+                margin-bottom: 4rem
+            }
+
+            .sm\:mr-20 {
+                margin-right: 5rem
+            }
+
+            .sm\:mr-5px {
+                margin-right: .3125rem
+            }
+
+            .sm\:max-w-sm {
+                max-width: 30rem
+            }
+
+            .sm\:-mx-0 {
+                margin-left: 0;
+                margin-right: 0
+            }
+
+            .sm\:-mx-1 {
+                margin-left: -.25rem;
+                margin-right: -.25rem
+            }
+
+            .sm\:-mx-5 {
+                margin-left: -1.25rem;
+                margin-right: -1.25rem
+            }
+
+            .sm\:overflow-hidden {
+                overflow: hidden
+            }
+
+            .sm\:overflow-x-hidden {
+                overflow-x: hidden
+            }
+
+            .sm\:p-3 {
+                padding: .75rem
+            }
+
+            .sm\:p-4 {
+                padding: 1rem
+            }
+
+            .sm\:p-5 {
+                padding: 1.25rem
+            }
+
+            .sm\:p-8 {
+                padding: 2rem
+            }
+
+            .sm\:p-10 {
+                padding: 2.5rem
+            }
+
+            .sm\:p-12 {
+                padding: 3rem
+            }
+
+            .sm\:p-20 {
+                padding: 5rem
+            }
+
+            .sm\:py-0 {
+                padding-bottom: 0;
+                padding-top: 0
+            }
+
+            .sm\:px-0 {
+                padding-left: 0;
+                padding-right: 0
+            }
+
+            .sm\:py-2 {
+                padding-bottom: .5rem;
+                padding-top: .5rem
+            }
+
+            .sm\:px-2 {
+                padding-left: .5rem;
+                padding-right: .5rem
+            }
+
+            .sm\:py-3 {
+                padding-bottom: .75rem;
+                padding-top: .75rem
+            }
+
+            .sm\:py-4 {
+                padding-bottom: 1rem;
+                padding-top: 1rem
+            }
+
+            .sm\:px-4 {
+                padding-left: 1rem;
+                padding-right: 1rem
+            }
+
+            .sm\:py-5 {
+                padding-bottom: 1.25rem;
+                padding-top: 1.25rem
+            }
+
+            .sm\:px-5 {
+                padding-left: 1.25rem;
+                padding-right: 1.25rem
+            }
+
+            .sm\:px-8 {
+                padding-left: 2rem;
+                padding-right: 2rem
+            }
+
+            .sm\:px-10 {
+                padding-left: 2.5rem;
+                padding-right: 2.5rem
+            }
+
+            .sm\:px-12 {
+                padding-left: 3rem;
+                padding-right: 3rem
+            }
+
+            .sm\:py-16 {
+                padding-bottom: 4rem;
+                padding-top: 4rem
+            }
+
+            .sm\:px-16 {
+                padding-left: 4rem;
+                padding-right: 4rem
+            }
+
+            .sm\:py-20 {
+                padding-bottom: 5rem;
+                padding-top: 5rem
+            }
+
+            .sm\:py-24 {
+                padding-bottom: 6rem;
+                padding-top: 6rem
+            }
+
+            .sm\:px-32 {
+                padding-left: 8rem;
+                padding-right: 8rem
+            }
+
+            .sm\:px-15px {
+                padding-left: .9375rem;
+                padding-right: .9375rem
+            }
+
+            .sm\:pt-0 {
+                padding-top: 0
+            }
+
+            .sm\:pr-12 {
+                padding-right: 3rem
+            }
+
+            .sm\:pt-20 {
+                padding-top: 5rem
+            }
+
+            .sm\:pt-24 {
+                padding-top: 6rem
+            }
+
+            .sm\:fixed {
+                position: fixed
+            }
+
+            .sm\:absolute {
+                position: absolute
+            }
+
+            .sm\:pin-r {
+                right: 0
+            }
+
+            .sm\:pin-l {
+                left: 0
+            }
+
+            .sm\:text-left {
+                text-align: left
+            }
+
+            .sm\:text-center {
+                text-align: center
+            }
+
+            .sm\:text-xs {
+                font-size: .75rem
+            }
+
+            .sm\:text-sm {
+                font-size: .875rem
+            }
+
+            .sm\:text-base {
+                font-size: 1rem
+            }
+
+            .sm\:text-lg {
+                font-size: 1.125rem
+            }
+
+            .sm\:text-xl {
+                font-size: 1.25rem
+            }
+
+            .sm\:text-2xl {
+                font-size: 1.5rem
+            }
+
+            .sm\:text-3xl {
+                font-size: 1.875rem
+            }
+
+            .sm\:text-4xl {
+                font-size: 2.25rem
+            }
+
+            .sm\:text-5xl {
+                font-size: 3rem
+            }
+
+            .sm\:text-6xl {
+                font-size: 4rem
+            }
+
+            .sm\:text-4-2xl {
+                font-size: 2.875rem
+            }
+
+            .sm\:text-5-2xl {
+                font-size: 3.375rem
+            }
+
+            .sm\:text-6-1\/2xl {
+                font-size: 5rem
+            }
+
+            .sm\:w-10 {
+                width: 2.5rem
+            }
+
+            .sm\:w-16 {
+                width: 4rem
+            }
+
+            .sm\:w-20 {
+                width: 5rem
+            }
+
+            .sm\:w-48 {
+                width: 12rem
+            }
+
+            .sm\:w-56 {
+                width: 14rem
+            }
+
+            .sm\:w-64 {
+                width: 16rem
+            }
+
+            .sm\:w-80 {
+                width: 20rem
+            }
+
+            .sm\:w-96 {
+                width: 24rem
+            }
+
+            .sm\:w-auto {
+                width: auto
+            }
+
+            .sm\:w-1\/2 {
+                width: 50%
+            }
+
+            .sm\:w-1\/3 {
+                width: 33.33333%
+            }
+
+            .sm\:w-2\/3 {
+                width: 66.66667%
+            }
+
+            .sm\:w-1\/4 {
+                width: 25%
+            }
+
+            .sm\:w-4\/5 {
+                width: 80%
+            }
+
+            .sm\:w-1\/6 {
+                width: 16.66667%
+            }
+
+            .sm\:w-full {
+                width: 100%
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -101,7 +836,7 @@
 
                 <div class="header-item-right headeraction">
                     <ul>
-                       
+
                         <li><a href="contact-us" class="sw-btn sw-orange-btn header-btn">Contact Us <i
                                     class="fa-solid fa-arrow-trend-up"></i></a></li>
                         <li><button type="button" class="menu-mobile-toggle"> <span></span> <span></span> <span></span>
@@ -202,20 +937,20 @@
                             aware of its latest version.</p>
 
                         <h4>1. General Information</h4>
-                            Via this data protection statement, we inform the general public of the nature, scope, and
-                            purpose of the personal data
-                            we collect, use, and process. Furthermore, this data protection declaration contains
-                            information on the website users'
-                            rights.
+                        Via this data protection statement, we inform the general public of the nature, scope, and
+                        purpose of the personal data
+                        we collect, use, and process. Furthermore, this data protection declaration contains
+                        information on the website users'
+                        rights.
 
-                            As the data controller and processor, codeindevelopers.com.ng has implemented numerous
-                            technical and organizational measures
-                            to ensure your data's complete protection throughout the website codeindevelopers.com.ng and
-                            all its subdomains. Since
-                            Internet-based data transmissions may have security gaps, more than absolute protection is
-                            needed. Moreover, every data
-                            subject is free to transfer personal data to us via direct and indirect means, e.g., email
-                            or phone support.</p>
+                        As the data controller and processor, codeindevelopers.com.ng has implemented numerous
+                        technical and organizational measures
+                        to ensure your data's complete protection throughout the website codeindevelopers.com.ng and
+                        all its subdomains. Since
+                        Internet-based data transmissions may have security gaps, more than absolute protection is
+                        needed. Moreover, every data
+                        subject is free to transfer personal data to us via direct and indirect means, e.g., email
+                        or phone support.</p>
 
                         <h4>2. Types Of Information We Collect</h4>
                         <p>We collect certain information about visitors and users of our websites. The type and scope
@@ -339,357 +1074,361 @@
                                 E.g., for granting court of law,
                                 law enforcement authorities, government requests, or any other occasions that may relate
                                 to
-                                judicial investigations.</li> </ul>
+                                judicial investigations.</li>
+                        </ul>
 
-                <h4>5. Personal Information Disclosure</h4>
-                    <p>Personal information of our users may be accessed by:</p>
-                            <ul class="codeindeveloperslist licircle">
+                        <h4>5. Personal Information Disclosure</h4>
+                        <p>Personal information of our users may be accessed by:</p>
+                        <ul class="codeindeveloperslist licircle">
 
 
-                                <li>company employees who need it to perform their tasks and duties
-                                    third parties who have a legitimate purpose for accessing it.
-                                    We may share a user's personal information with third parties in the following
-                                    cases.</li>
+                            <li>company employees who need it to perform their tasks and duties
+                                third parties who have a legitimate purpose for accessing it.
+                                We may share a user's personal information with third parties in the following
+                                cases.</li>
 
-                                <li>The customer consents to the disclosure.
-                                    We need to disclose partial data for support purposes and third-party software
-                                    validation/activation.
-                                    The customer orders a third-party service on our website, and subcontractors or
-                                    service
-                                    providers need the data to
-                                    perform the offer. Subcontractors or service providers may access your personal
-                                    information
-                                    from their operational
-                                    countries.
-                                    It is required to protect our rights or comply with a judicial proceeding, court
-                                    order, or
-                                    legal process.</li></ul>
+                            <li>The customer consents to the disclosure.
+                                We need to disclose partial data for support purposes and third-party software
+                                validation/activation.
+                                The customer orders a third-party service on our website, and subcontractors or
+                                service
+                                providers need the data to
+                                perform the offer. Subcontractors or service providers may access your personal
+                                information
+                                from their operational
+                                countries.
+                                It is required to protect our rights or comply with a judicial proceeding, court
+                                order, or
+                                legal process.</li>
+                        </ul>
 
-                                <h4> 6. Personal Information Storage and Protection</h4>
-                                <p>CodeinDevelopers has its major facility located in the USA. In addition, the company
-                                    cooperates with outsourcing
-                                    employees worldwide to provide users with in-time support and a high level of
-                                    services. We
-                                    can store your personal data
-                                    on different local servers. To protect your information, we also work with
-                                    subcontractors
-                                    who can maintain standards of
-                                    data security compliance.</p>
-                                <ul class="codeindeveloperslist licircle">
-                                <li> 6.1. Storage Time
-                                    Users` information is stored on our servers as long as it is needed to provide them
-                                    with our
-                                    services and comply with
-                                    legal obligations.</li>
+                        <h4> 6. Personal Information Storage and Protection</h4>
+                        <p>CodeinDevelopers has its major facility located in the USA. In addition, the company
+                            cooperates with outsourcing
+                            employees worldwide to provide users with in-time support and a high level of
+                            services. We
+                            can store your personal data
+                            on different local servers. To protect your information, we also work with
+                            subcontractors
+                            who can maintain standards of
+                            data security compliance.</p>
+                        <ul class="codeindeveloperslist licircle">
+                            <li> 6.1. Storage Time
+                                Users` information is stored on our servers as long as it is needed to provide them
+                                with our
+                                services and comply with
+                                legal obligations.</li>
 
-                                    <p>If users don’t want us to store their personal information, they have the right
-                                        to get it
-                                        deleted, but in this case,
-                                        we’ll have to deactivate their CodeinDevelopers accounts.</p>
+                            <p>If users don’t want us to store their personal information, they have the right
+                                to get it
+                                deleted, but in this case,
+                                we’ll have to deactivate their CodeinDevelopers accounts.</p>
 
-                                    <p>All information about deleted accounts stays on our servers to use for our
-                                        legitimate
-                                        business interests: comply with
-                                        the law, prevent fraud, resolve disputes, troubleshoot problems, assist with
-                                        investigations,
-                                        enforce the service terms,
-                                        or take other actions permitted by law. We handle the information we retain
-                                        following this
-                                        Privacy Policy.</p>
-                                </li>
+                            <p>All information about deleted accounts stays on our servers to use for our
+                                legitimate
+                                business interests: comply with
+                                the law, prevent fraud, resolve disputes, troubleshoot problems, assist with
+                                investigations,
+                                enforce the service terms,
+                                or take other actions permitted by law. We handle the information we retain
+                                following this
+                                Privacy Policy.</p>
+                            </li>
 
-                                <li>
-                                    <p>6.2. Security Measures
-                                        To keep user information secure, we apply specific measures to protect it
-                                        against
-                                        unauthorized or illegal use,
-                                        accidental loss, or destruction.</p>
+                            <li>
+                                <p>6.2. Security Measures
+                                    To keep user information secure, we apply specific measures to protect it
+                                    against
+                                    unauthorized or illegal use,
+                                    accidental loss, or destruction.</p>
 
-                                    <p> We share and provide user information access to the minimum necessary extent,
-                                        subject to
-                                        confidentiality restrictions
-                                        where appropriate, and on an anonymized basis wherever possible.</p>
-                                    <p> To store user information, we use secure servers.
-                                        We verify the identity of all individuals who request access to private
-                                        information before
-                                        granting them access.</p>
-                                    We use SSL certificate encryption to protect the data transfer.
-                                    <p> We are not responsible if users try to circumvent privacy settings on our
-                                        websites. If we
-                                        provide users with access to
-                                        certain parts of our website, they are responsible for keeping them safe. Users
-                                        must not
-                                        share access details with third
-                                        parties.
+                                <p> We share and provide user information access to the minimum necessary extent,
+                                    subject to
+                                    confidentiality restrictions
+                                    where appropriate, and on an anonymized basis wherever possible.</p>
+                                <p> To store user information, we use secure servers.
+                                    We verify the identity of all individuals who request access to private
+                                    information before
+                                    granting them access.</p>
+                                We use SSL certificate encryption to protect the data transfer.
+                                <p> We are not responsible if users try to circumvent privacy settings on our
+                                    websites. If we
+                                    provide users with access to
+                                    certain parts of our website, they are responsible for keeping them safe. Users
+                                    must not
+                                    share access details with third
+                                    parties.
 
-                                    <p>Due to obvious reasons, we cannot control all users' actions on our websites,
-                                        e.g., in
-                                        public comments, forums, etc.
-                                        Therefore, we recommend customers share their information in public areas
-                                        wisely, as we
-                                        cannot guarantee that
-                                        unauthorized parties will not view the data, which users publish on the web.
+                                <p>Due to obvious reasons, we cannot control all users' actions on our websites,
+                                    e.g., in
+                                    public comments, forums, etc.
+                                    Therefore, we recommend customers share their information in public areas
+                                    wisely, as we
+                                    cannot guarantee that
+                                    unauthorized parties will not view the data, which users publish on the web.
 
-                                    <p> When users choose to share their information via a third-party website, they
-                                        need to check
-                                        that website's privacy policy
-                                        to be aware of its information management and protection practices.
-                                </li></ul>
+                                <p> When users choose to share their information via a third-party website, they
+                                    need to check
+                                    that website's privacy policy
+                                    to be aware of its information management and protection practices.
+                            </li>
+                        </ul>
 
-                                <h4> 7. Privacy Management</h4>
-                            
-                                <p>All personal information that we collect about users is available in their accounts.
-                                    Users
-                                    have the right to make all
-                                    the necessary edits and changes to this data.
+                        <h4> 7. Privacy Management</h4>
 
-                                <p>Users can receive personal information in a structured, machine-readable format,
-                                    edit,
-                                    erase, or restrict its
-                                    processing. They can also object to their data processing for a set of company
-                                    interests,
-                                    such as profiling for direct
-                                    marketing and other cases when we need their consent to data processing.
+                        <p>All personal information that we collect about users is available in their accounts.
+                            Users
+                            have the right to make all
+                            the necessary edits and changes to this data.
 
-                                <p>There are several situations when these rights can be limited, and we can retain user
-                                    information after they withdraw
-                                    their consent. Those are cases where we may require personal data to be compliant
-                                    with legal
-                                    or contractual obligations.
-                                    If users do not provide us with such data, we can not complete the service. In all
-                                    other
-                                    cases providing requested
-                                    information can be optional.
+                        <p>Users can receive personal information in a structured, machine-readable format,
+                            edit,
+                            erase, or restrict its
+                            processing. They can also object to their data processing for a set of company
+                            interests,
+                            such as profiling for direct
+                            marketing and other cases when we need their consent to data processing.
 
-                                <p>If users have unresolved concerns, they have the right to complain to the data
-                                    protection
-                                    authorities. If you believe
-                                    that our company violates your privacy rights, please contact us at
-                                    privacy@codeindevelopers.com.ng
+                        <p>There are several situations when these rights can be limited, and we can retain user
+                            information after they withdraw
+                            their consent. Those are cases where we may require personal data to be compliant
+                            with legal
+                            or contractual obligations.
+                            If users do not provide us with such data, we can not complete the service. In all
+                            other
+                            cases providing requested
+                            information can be optional.
 
-                                <h4>8. Marketing Use of Your Personal Information</h4>
-                
-                                If we have users' consent, we can send them marketing materials with information about
-                                products, services, or discounts.
-                                If they decide not to receive such email notifications, they can easily opt out using
-                                the
-                                unsubscribe option or contact
-                                us at unsubscribe@codeindevelopers.com.ng.
-                                <ul class="codeindeveloperslist licircle">
-                                <li>8.1. Web Beacons
-                                    We use web beacons. It is a means to track the website's use on occasions, like
-                                    promotions
-                                    or newsletters. The data we
-                                    collect via web beacons allow us to track the number of users who opened our
-                                    newsletters.
-                                    Also, web beacons help us to
-                                    understand user behavior and improve UX.
+                        <p>If users have unresolved concerns, they have the right to complain to the data
+                            protection
+                            authorities. If you believe
+                            that our company violates your privacy rights, please contact us at
+                            privacy@codeindevelopers.com.ng
 
-                                <li>8.2. Google Analytics
-                                    CodeinDevelopers uses Google Analytics, a web analytics service created by Google,
-                                    Inc.
-                                    Google Analytics software uses
-                                    cookies to analyze user behavior. All data (i.e., user activity on the
-                                    codeindevelopers.com.ng
-                                    domain and all its
-                                    subdomains) is gathered by cookies and stored on Google cloud data centers, most of
-                                    which
-                                    are in the U.S.
+                        <h4>8. Marketing Use of Your Personal Information</h4>
 
-                                    <p>In turn, Google uses this data to evaluate user behavior in general, compile
-                                        reports for
-                                        site managers, and provide data
-                                        to services related to website activity and Internet usage. Google may transfer
-                                        various data
-                                        to third parties when
-                                        required to do so by law or when such third parties process the information on
-                                        Google's
-                                        behalf.
+                        If we have users' consent, we can send them marketing materials with information about
+                        products, services, or discounts.
+                        If they decide not to receive such email notifications, they can easily opt out using
+                        the
+                        unsubscribe option or contact
+                        us at unsubscribe@codeindevelopers.com.ng.
+                        <ul class="codeindeveloperslist licircle">
+                            <li>8.1. Web Beacons
+                                We use web beacons. It is a means to track the website's use on occasions, like
+                                promotions
+                                or newsletters. The data we
+                                collect via web beacons allow us to track the number of users who opened our
+                                newsletters.
+                                Also, web beacons help us to
+                                understand user behavior and improve UX.
 
-                                    <p> In no way will Google associate user IP addresses with any other data held by
-                                        Google. If
-                                        users do not want to provide
-                                        Google with the browsing data, they can block cookies via browser settings.
-                                        Users can find
-                                        more information on Google
-                                        opt-out, Privacy, and Google Analytics.</p></ul>
+                            <li>8.2. Google Analytics
+                                CodeinDevelopers uses Google Analytics, a web analytics service created by Google,
+                                Inc.
+                                Google Analytics software uses
+                                cookies to analyze user behavior. All data (i.e., user activity on the
+                                codeindevelopers.com.ng
+                                domain and all its
+                                subdomains) is gathered by cookies and stored on Google cloud data centers, most of
+                                which
+                                are in the U.S.
 
-                                    <h4>9. Cookie Files</h4>
-                                    <p>A cookie is a small file that is placed on users' devices when they visit any
-                                        website. We
-                                        use cookies to provide users
-                                        with access to all website features as well as to analyze, personalize, and
-                                        improve user
-                                        experience.
+                                <p>In turn, Google uses this data to evaluate user behavior in general, compile
+                                    reports for
+                                    site managers, and provide data
+                                    to services related to website activity and Internet usage. Google may transfer
+                                    various data
+                                    to third parties when
+                                    required to do so by law or when such third parties process the information on
+                                    Google's
+                                    behalf.
 
-                                    <p>We activate all cookies by default to ensure the proper functioning of our
-                                        website,
-                                        advertisement, and analytics. All
-                                        users can customize their cookie preferences and opt out of the analytics and
-                                        advertising
-                                        cookies according to General
-                                        Data Protection Regulation (GDPR) and other Data Privacy Laws. Strictly
-                                        necessary cookies
-                                        are always enabled to ensure
-                                        the delivery of the requested services and resources.
+                                <p> In no way will Google associate user IP addresses with any other data held by
+                                    Google. If
+                                    users do not want to provide
+                                    Google with the browsing data, they can block cookies via browser settings.
+                                    Users can find
+                                    more information on Google
+                                    opt-out, Privacy, and Google Analytics.</p>
+                        </ul>
 
-                                    <p> Detailed information on each type of cookie we use is provided in our cookies
-                                        policy.</p>
+                        <h4>9. Cookie Files</h4>
+                        <p>A cookie is a small file that is placed on users' devices when they visit any
+                            website. We
+                            use cookies to provide users
+                            with access to all website features as well as to analyze, personalize, and
+                            improve user
+                            experience.
 
-                                    <h4> 10. Third-Party Integrations of Your Public Information</h4>
-                                    <ul class="codeindeveloperslist licircle">
-                                        <li>11.1 Testimonials
-                                            In addition to various endorsements, we display testimonials on our website.
-                                            We publish
-                                            testimonials only after
-                                            receiving users' consent to specify their names. If users want to delete or
-                                            modify their
-                                            existing testimonials, they can
-                                            contact us via email at reviews@codeindevelopers.com.ng.
+                        <p>We activate all cookies by default to ensure the proper functioning of our
+                            website,
+                            advertisement, and analytics. All
+                            users can customize their cookie preferences and opt out of the analytics and
+                            advertising
+                            cookies according to General
+                            Data Protection Regulation (GDPR) and other Data Privacy Laws. Strictly
+                            necessary cookies
+                            are always enabled to ensure
+                            the delivery of the requested services and resources.
 
-                                        <li> 10.2. Blog
-                                            Users can share their opinions on our official blogs. The information they
-                                            add to our blog
-                                            posts or comments added via
-                                            Disqus or an internal commenting system can be read, collected, or used by
-                                            our website's
-                                            visitors. If users wish to
-                                            remove some of their information from our blogs, they can contact us at
-                                            marketing@codeindevelopers.com.ng
+                        <p> Detailed information on each type of cookie we use is provided in our cookies
+                            policy.</p>
 
-                                        <li> 10.3. Social media platforms and widgets
-                                            All CodeinDevelopers websites have embedded social media features, e.g.,
-                                            Facebook `Like`
-                                            button. These features may
-                                            collect users' data like IP address or place a cookie in their browser to
-                                            gather statistical
-                                            information about their
-                                            interactions with our websites. Social media features are hosted both on our
-                                            website and on
-                                            servers of a specific social
-                                            media network.
+                        <h4> 10. Third-Party Integrations of Your Public Information</h4>
+                        <ul class="codeindeveloperslist licircle">
+                            <li>11.1 Testimonials
+                                In addition to various endorsements, we display testimonials on our website.
+                                We publish
+                                testimonials only after
+                                receiving users' consent to specify their names. If users want to delete or
+                                modify their
+                                existing testimonials, they can
+                                contact us via email at reviews@codeindevelopers.com.ng.
 
-                                            <p> Apart from these features, we maintain profiles on major networks,
-                                                including Facebook,
-                                                Twitter, Pinterest, Instagram,
-                                                LinkedIn, etc. Any information users submit on these networks in public
-                                                areas, like
-                                                comments, can be easily read,
-                                                collected, or stored by all users of these networks. We cannot control
-                                                the actions of other
-                                                social media users or the
-                                                actions of these platforms. According to their privacy policies, only
-                                                the related social
-                                                media platforms manage user
-                                                activity and interaction with those features.
+                            <li> 10.2. Blog
+                                Users can share their opinions on our official blogs. The information they
+                                add to our blog
+                                posts or comments added via
+                                Disqus or an internal commenting system can be read, collected, or used by
+                                our website's
+                                visitors. If users wish to
+                                remove some of their information from our blogs, they can contact us at
+                                marketing@codeindevelopers.com.ng
 
-                                        <li> 10.4. Links to other websites
-                                            If users click on a link to a third-party site, they leave our site. Since
-                                            we cannot control
-                                            third parties' activities,
-                                            we do not bear responsibility for any use of your personal information by
-                                            those parties.
-                                            Users should review the privacy
-                                            policy of any other website they visit.
+                            <li> 10.3. Social media platforms and widgets
+                                All CodeinDevelopers websites have embedded social media features, e.g.,
+                                Facebook `Like`
+                                button. These features may
+                                collect users' data like IP address or place a cookie in their browser to
+                                gather statistical
+                                information about their
+                                interactions with our websites. Social media features are hosted both on our
+                                website and on
+                                servers of a specific social
+                                media network.
 
-                                            <h4>11. Data Erasure</h4>
-                                            The information controller shall process and store the data subject's data
-                                            only for the time
-                                            necessary to achieve the
-                                            purpose of storage according to the Nigeria legislator or other legislators
-                                            in laws or
-                                            regulations to which the controller
-                                            is subject.
+                                <p> Apart from these features, we maintain profiles on major networks,
+                                    including Facebook,
+                                    Twitter, Pinterest, Instagram,
+                                    LinkedIn, etc. Any information users submit on these networks in public
+                                    areas, like
+                                    comments, can be easily read,
+                                    collected, or stored by all users of these networks. We cannot control
+                                    the actions of other
+                                    social media users or the
+                                    actions of these platforms. According to their privacy policies, only
+                                    the related social
+                                    media platforms manage user
+                                    activity and interaction with those features.
 
-                                            <p>If the storage purpose isn't applicable or a storage time prescribed by
-                                                the U.S. legislator
-                                                or another competent
-                                                legislator expires, the personal data is blocked or erased.
+                            <li> 10.4. Links to other websites
+                                If users click on a link to a third-party site, they leave our site. Since
+                                we cannot control
+                                third parties' activities,
+                                we do not bear responsibility for any use of your personal information by
+                                those parties.
+                                Users should review the privacy
+                                policy of any other website they visit.
 
-                                            <p>CodeinDevelopers retains the right to block users` accounts and erase the
-                                                related data if
-                                                they didn't log in and take any
-                                                action for 6 (six) months or more. It relates to customer, author, and
-                                                affiliate accounts.
+                                <h4>11. Data Erasure</h4>
+                                The information controller shall process and store the data subject's data
+                                only for the time
+                                necessary to achieve the
+                                purpose of storage according to the Nigeria legislator or other legislators
+                                in laws or
+                                regulations to which the controller
+                                is subject.
 
-                                            <p>Users can create requests to delete their accounts and erase their
-                                                personal information by
-                                                sending an email to
-                                                privacy@codeindevelopers.com.ng. The request processing can take up to 2
-                                                weeks until the
-                                                data
-                                                is deleted.
+                                <p>If the storage purpose isn't applicable or a storage time prescribed by
+                                    the U.S. legislator
+                                    or another competent
+                                    legislator expires, the personal data is blocked or erased.
 
-                                            <p>Considering that
-                                                we use several third-party services, including email newsletter tools,
-                                                and external ads
-                                                services. An immediate client's
-                                                rejection to receive notifications/ads may be impossible due to 3rd
-                                                party services,
-                                                browsers` cache, and other technical
-                                                reasons.
+                                <p>CodeinDevelopers retains the right to block users` accounts and erase the
+                                    related data if
+                                    they didn't log in and take any
+                                    action for 6 (six) months or more. It relates to customer, author, and
+                                    affiliate accounts.
 
-                                            <h4> 12. Children's Online Privacy</h4>
-                                            Children under 13 years old should not use CodeinDevelopers websites,
-                                            products, and
-                                            services. No one under the age of 13
-                                            (thirteen) years old can provide personal information to or on our websites.
-                                            We are not
-                                            collecting information from
-                                            children under 13 years old.
-                                            <p> Users under 13 years old cannot use any of our websites, buy
-                                                products from the marketplace,
-                                                comment on blog posts, or social media posts, or provide personal
-                                                information about
-                                                themselves, including their name,
-                                                address, phone number, and email. If we learn that users violated this
-                                                term, we will
-                                                immediately delete their accounts
-                                                and all information. If you believe that we may have some information
-                                                provided by your
-                                                child, please contact us at
-                                                privacy@codeindevelopers.com.ng.
+                                <p>Users can create requests to delete their accounts and erase their
+                                    personal information by
+                                    sending an email to
+                                    privacy@codeindevelopers.com.ng. The request processing can take up to 2
+                                    weeks until the
+                                    data
+                                    is deleted.
 
-                                            <h4>13. Changes in Our Privacy Policy</h4>
-                                            As the data controller and data processor, we reserve the right to change or
-                                            modify this
-                                            Privacy Policy at any time. We
-                                            publish the changes on this Privacy Policy page and notify users via email
-                                            if necessary.
+                                <p>Considering that
+                                    we use several third-party services, including email newsletter tools,
+                                    and external ads
+                                    services. An immediate client's
+                                    rejection to receive notifications/ads may be impossible due to 3rd
+                                    party services,
+                                    browsers` cache, and other technical
+                                    reasons.
 
-                                            <p> Depending on the context of personal information users provide,
-                                                CodeinDevelopers can be a
-                                                data controller and processor.
-                                                CodeinDevelopers is a processor of personal information submitted to the
-                                                services or
-                                                collected through the related
-                                                services.
+                                <h4> 12. Children's Online Privacy</h4>
+                                Children under 13 years old should not use CodeinDevelopers websites,
+                                products, and
+                                services. No one under the age of 13
+                                (thirteen) years old can provide personal information to or on our websites.
+                                We are not
+                                collecting information from
+                                children under 13 years old.
+                                <p> Users under 13 years old cannot use any of our websites, buy
+                                    products from the marketplace,
+                                    comment on blog posts, or social media posts, or provide personal
+                                    information about
+                                    themselves, including their name,
+                                    address, phone number, and email. If we learn that users violated this
+                                    term, we will
+                                    immediately delete their accounts
+                                    and all information. If you believe that we may have some information
+                                    provided by your
+                                    child, please contact us at
+                                    privacy@codeindevelopers.com.ng.
 
-                                            <p>If users have any questions regarding this Privacy Policy, including
-                                                their information
-                                                collection, storage, and
-                                                processing, or if they believe that we violate their privacy rights,
-                                                they can contact us at
-                                                privacy@codeindevelopers.com.ng.
-                                                We respond to all requests, inquiries, or concerns within fifteen (15)
-                                                days
+                                <h4>13. Changes in Our Privacy Policy</h4>
+                                As the data controller and data processor, we reserve the right to change or
+                                modify this
+                                Privacy Policy at any time. We
+                                publish the changes on this Privacy Policy page and notify users via email
+                                if necessary.
 
-                                            <div>
-                                                <div>
-                                                    <br>
-                                                    <ul class="codeindeveloperslist licircle">
-                                                        <li><a href="#">Nigerian Data Protection Bill</a></li>
-                                                        <li><a href="#">Art. 6(1) GDPR.</a></li>
-                                                        <li><a href="#">Children's Online Privacy Protection Act
-                                                                (COPPA), 2013</a></li>
-                                                        <li><a href="#">California Online Privacy Protection Act
-                                                                (CalOPPA), 2020</a></li>
-                                                        <li><a href="#">Personal Information Protection and Electronic
-                                                                Documents Act (PIPEDA),
-                                                                2021</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                <p> Depending on the context of personal information users provide,
+                                    CodeinDevelopers can be a
+                                    data controller and processor.
+                                    CodeinDevelopers is a processor of personal information submitted to the
+                                    services or
+                                    collected through the related
+                                    services.
+
+                                <p>If users have any questions regarding this Privacy Policy, including
+                                    their information
+                                    collection, storage, and
+                                    processing, or if they believe that we violate their privacy rights,
+                                    they can contact us at
+                                    privacy@codeindevelopers.com.ng.
+                                    We respond to all requests, inquiries, or concerns within fifteen (15)
+                                    days
+
+                                <div>
+                                    <div>
+                                        <br>
+                                        <ul class="codeindeveloperslist licircle">
+                                            <li><a href="#">Nigerian Data Protection Bill</a></li>
+                                            <li><a href="#">Art. 6(1) GDPR.</a></li>
+                                            <li><a href="#">Children's Online Privacy Protection Act
+                                                    (COPPA), 2013</a></li>
+                                            <li><a href="#">California Online Privacy Protection Act
+                                                    (CalOPPA), 2020</a></li>
+                                            <li><a href="#">Personal Information Protection and Electronic
+                                                    Documents Act (PIPEDA),
+                                                    2021</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                     </div>
                 </div>
     </section>
@@ -791,6 +1530,79 @@
                 </div>
             </div>
     </footer>
+    <div class="fixed pin-l pin-b p-6 sm:p-10 z-100">
+        <div class="js-cookie-consent bg-white w-full sm:w-auto rounded-lg shadow-md p-6">
+
+            <div class="w-16 mx-auto relative -mt-10 mb-3 ">
+                <img class="-mt-1" src="assets\images\cookies.svg" alt="cookie">
+            </div>
+
+            <span
+                class="cookie-consent__message w-full sm:w-48  block font-lf leading-normal text-grey-darkest text-xs mb-3">
+                We care about your data, and we'd love to use cookies to make your experience better.
+            </span>
+
+            <div class="flex items-center justify-between">
+                <a class="font-lf text-xs text-grey-dark mr-1" href="privacy-policy.html">Privacy Policy</a>
+                <button
+                    class="js-cookie-consent-agree bg-lf-teal trans text-xs hover:bg-lf-teal-dark rounded inline-block shadow px-8 py-2 text-white font-lf-bold cursor-pointer">
+                    Ok
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+
+        window.laravelCookieConsent = (function () {
+
+            const COOKIE_VALUE = 1;
+            const COOKIE_DOMAIN = 'lottiefiles.com';
+
+            function consentWithCookies() {
+                setCookie('lottiefiles_cookie_consent', COOKIE_VALUE, 7300);
+                hideCookieDialog();
+            }
+
+            function cookieExists(name) {
+                return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_VALUE) !== -1);
+            }
+
+            function hideCookieDialog() {
+                const dialogs = document.getElementsByClassName('js-cookie-consent');
+
+                for (let i = 0; i < dialogs.length; ++i) {
+                    dialogs[i].style.display = 'none';
+                }
+            }
+
+            function setCookie(name, value, expirationInDays) {
+                const date = new Date();
+                date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value
+                    + ';expires=' + date.toUTCString()
+                    + ';domain=' + COOKIE_DOMAIN
+                    + ';path=/'
+                    + '';
+            }
+
+            if (cookieExists('lottiefiles_cookie_consent')) {
+                hideCookieDialog();
+            }
+
+            const buttons = document.getElementsByClassName('js-cookie-consent-agree');
+
+            for (let i = 0; i < buttons.length; ++i) {
+                buttons[i].addEventListener('click', consentWithCookies);
+            }
+
+            return {
+                consentWithCookies: consentWithCookies,
+                hideCookieDialog: hideCookieDialog
+            };
+        })();
+    </script>
 
 
 
