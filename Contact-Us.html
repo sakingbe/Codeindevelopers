@@ -1174,79 +1174,8 @@
                 </div>
             </div>
     </footer>
-    <div class="fixed pin-l pin-b p-6 sm:p-10 z-100">
-        <div class="js-cookie-consent bg-white w-full sm:w-auto rounded-lg shadow-md p-6">
 
-            <div class="w-16 mx-auto relative -mt-10 mb-3 ">
-                <img class="-mt-1" src="assets\images\cookies.svg" alt="cookie">
-            </div>
 
-            <span
-                class="cookie-consent__message w-full sm:w-48  block font-lf leading-normal text-grey-darkest text-xs mb-3">
-                We care about your data, and we'd love to use cookies to make your experience better.
-            </span>
-
-            <div class="flex items-center justify-between">
-                <a class="font-lf text-xs text-grey-dark mr-1" href="privacy-policy.html">Privacy Policy</a>
-                <button
-                    class="js-cookie-consent-agree bg-lf-teal trans text-xs hover:bg-lf-teal-dark rounded inline-block shadow px-8 py-2 text-white font-lf-bold cursor-pointer">
-                    Ok
-                </button>
-            </div>
-
-        </div>
-    </div>
-
-    <script>
-
-        window.laravelCookieConsent = (function () {
-
-            const COOKIE_VALUE = 1;
-            const COOKIE_DOMAIN = 'codeindevelopers.com.ng';
-
-            function consentWithCookies() {
-                setCookie('codeindevelopers_cookie_consent', COOKIE_VALUE, 7300);
-                hideCookieDialog();
-            }
-
-            function cookieExists(name) {
-                return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_VALUE) !== -1);
-            }
-
-            function hideCookieDialog() {
-                const dialogs = document.getElementsByClassName('js-cookie-consent');
-
-                for (let i = 0; i < dialogs.length; ++i) {
-                    dialogs[i].style.display = 'none';
-                }
-            }
-
-            function setCookie(name, value, expirationInDays) {
-                const date = new Date();
-                date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
-                document.cookie = name + '=' + value
-                    + ';expires=' + date.toUTCString()
-                    + ';domain=' + COOKIE_DOMAIN
-                    + ';path=/'
-                    + '';
-            }
-
-            if (cookieExists('codeindevelopers_cookie_consent')) {
-                hideCookieDialog();
-            }
-
-            const buttons = document.getElementsByClassName('js-cookie-consent-agree');
-
-            for (let i = 0; i < buttons.length; ++i) {
-                buttons[i].addEventListener('click', consentWithCookies);
-            }
-
-            return {
-                consentWithCookies: consentWithCookies,
-                hideCookieDialog: hideCookieDialog
-            };
-        })();
-    </script>
 
 
 
