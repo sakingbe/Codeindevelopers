@@ -23,10 +23,10 @@
   background: #fff;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff5723;
+  background: #00beaf;
 }
 ::-webkit-scrollbar-thumb {
-  background: #ff5723;
+  background: #00beaf;
   border-radius: 100px;
 }
 ::-moz-selection {
@@ -1206,7 +1206,7 @@ span.checked {
 .statsnum span {
   font-size: 40px;
   font-weight: 700;
-  color: #ff5723;
+  color: #00beaf;
 }
 .statsnum p {
   font-size: 18px;
@@ -1247,8 +1247,8 @@ span.checked {
 .port-links {
   font-size: 20px;
   letter-spacing: 1px;
-  color: #ff5723;
-  border: 1px solid #ff5723;
+  color: #00beaf;
+  border: 1px solid #00beaf;
   display: inline-block;
   padding: 20px 30px;
   border-radius: 100px;
@@ -1288,19 +1288,19 @@ span.checked {
 }
 button:hover {
   background: #fff;
-  color: #ff5723 !important;
+  color: #00beaf !important;
 }
 .codeindevelopers-btn {
   text-transform: uppercase;
   color: #fff;
-  background: #ff5723;
+  background: #00beaf;
   border-radius: 50px;
   display: inline-block;
   font-size: 18px;
   padding: 0 32px;
   line-height: 60px;
   overflow: hidden;
-  border: 1px solid #ff5723;
+  border: 1px solid #00beaf;
 }
 .codeindevelopers-btn:hover {
   color: #110a32;
@@ -1392,7 +1392,7 @@ a.button:hover {
   height: 100%;
 }
 .button--sw2:hover::before {
-  background: #ff5723;
+  background: #00beaf;
   -webkit-clip-path: path(
     "M143,77 C117,96 74,100.5 45.5,91.5 C17,82.5 -10.5,57 5.5,31.5 C21.5,6 79,-5.5 130.5,4 C182,13.5 169,58 143,77 Z"
   );
@@ -1402,7 +1402,7 @@ a.button:hover {
 }
 .button--sw2:hover::after {
   transform: translate3d(0, -5px, 0);
-  border: 1px solid #ff5723;
+  border: 1px solid #00beaf;
 }
 .swheader {
   line-height: 48px;
@@ -1889,7 +1889,7 @@ ul.pagination li:last-child {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  background: #ff5723;
+  background: #00beaf;
   transform: translate3d(0, 101%, 0);
 }
 .marquee__inner-codeindevelopers {
@@ -1987,7 +1987,7 @@ ul.pagination li:last-child {
 .floating-input:focus,
 .floating-select:focus {
   outline: none;
-  border-bottom: 1px solid #ff5723;
+  border-bottom: 1px solid #00beaf;
 }
 .floating-label label {
   color: #110a32;
@@ -2125,7 +2125,7 @@ ul.pagination li:last-child {
   background: #eff3fb;
 }
 .🌏 {
-  background: #00318f url(../images/bg-swirl.svg);
+  background: #474950 url(../images/bg-swirl.svg);
 }
 footer h2,
 footer h3,
@@ -2194,7 +2194,7 @@ footer p {
   text-align: center;
   line-height: 46px;
   font-size: 24px;
-  color: #ff5723;
+  color: #00beaf;
   left: 0;
   top: 0;
   height: 46px;
@@ -2215,7 +2215,7 @@ footer p {
   text-align: center;
   line-height: 46px;
   font-size: 24px;
-  color: #ff5723;
+  color: #00beaf;
   opacity: 0;
   left: 0;
   top: 0;
@@ -2234,7 +2234,7 @@ footer p {
   fill: none;
 }
 .progress-wrap svg.progress-circle-sw path {
-  stroke: #ff5723;
+  stroke: #00beaf;
   stroke-width: 4;
   box-sizing: border-box;
   -webkit-transition: all 200ms linear;
@@ -2244,10 +2244,10 @@ body.light .progress-wrap {
   box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.2);
 }
 body.light .progress-wrap::after {
-  color: #ff5723;
+  color: #00beaf;
 }
 body.light .progress-wrap svg.progress-circle-sw path {
-  stroke: #ff5723;
+  stroke: #00beaf;
 }
 .s-e-p-a-r-a-t-e-w-e-b-🤙 {
   display: none;
@@ -2343,7 +2343,7 @@ p.infocodeindevelopers {
   color: #08182b;
 }
 .white-sw-header .codeindevelopers-nav .codeindevelopers-list li a.sw-links {
-  color: #fff;
+  color: #f44333;
 }
 .white-sw-header .dark-sw {
   display: none;
@@ -2410,7 +2410,7 @@ p.infocodeindevelopers {
     #e100ff,
     #7f00ff,
     #00c6ff,
-    #ff5723,
+    #00beaf,
     #e100ff
   );
   background-size: 400%;
@@ -2450,7 +2450,7 @@ p.infocodeindevelopers {
 }
 .quotess {
   font-size: 50px;
-  color: #ff5723;
+  color: #00beaf;
   margin: 0 0 20px;
   display: block;
 }
@@ -2473,7 +2473,7 @@ p.infocodeindevelopers {
 .codeindevelopers-menu {
   border: 0;
   font-size: 30px;
-  background: #ff5723;
+  background: #00beaf;
   line-height: 50px;
   color: #fff;
   border-radius: 100px;
@@ -2513,13 +2513,13 @@ p.infocodeindevelopers {
   padding: 1.5rem 1rem;
 }
 .offcanvas-backdrop {
-  background-color: #ff5723;
+  background-color: #00beaf;
 }
 .marketprofile:hover {
   color: #fff;
 }
 .marketprofile {
-  background: #ff5723;
+  background: #00beaf;
   width: 100%;
   display: flex;
   border-radius: 100px;
@@ -2568,7 +2568,7 @@ p.infocodeindevelopers {
   height: 62px;
   width: 100%;
   position: absolute;
-  background: #ff5723;
+  background: #00beaf;
   align-items: center;
   justify-content: center;
 }
@@ -2607,8 +2607,8 @@ p.infocodeindevelopers {
   grid-gap: 5px;
 }
 button:hover .sw-dual-ring:after {
-  border: 4px solid #ff5723;
-  border-color: #ff5723 transparent #ff5723 transparent;
+  border: 4px solid #00beaf;
+  border-color: #00beaf transparent #00beaf transparent;
 }
 button:hover .sw-dual-ring {
   background: #fff;
@@ -3075,7 +3075,7 @@ input[type="number"]::-webkit-outer-spin-button {
   .statsnum span {
     font-size: 30px;
     font-weight: 700;
-    color: #ff5723;
+    color: #00beaf;
   }
   .swhz h2 {
     font-size: 22px;
