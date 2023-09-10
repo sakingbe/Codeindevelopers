@@ -11,4 +11,4 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/ 
 Disallow: /test/
-Sitemap: https://codeindev.com.ng/sitemap.xml
+Sitemap: https://www.codeindevelopers.com.ng//sitemap.xml
