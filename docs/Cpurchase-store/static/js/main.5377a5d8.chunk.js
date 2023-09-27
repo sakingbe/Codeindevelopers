@@ -51,97 +51,97 @@
         x = [
           { name: "Introduction", routerPath: "/" },
           {
-            name: "Home Page",
+            name: "Customer(s)",
             dropDownItems: [
-              { name: "Registration", routerPath: "/foodyman-documentation/basic" },
-              { name: "Backend", routerPath: "/foodyman-documentation/server" },
-              { name: "Frontend", routerPath: "/foodyman-documentation/front" },
+              { name: "Registration", routerPath: "/cpurchase-documentation/user" },
+              { name: "Backend", routerPath: "/cpurchase-documentation/server" },
+              { name: "Frontend", routerPath: "/cpurchase-documentation/front" },
               {
                 name: "Mobile app",
-                routerPath: "/foodyman-documentation/mobile-app",
+                routerPath: "/cpurchase-documentation/mobile-app",
               },
             ],
           },
           {
-            name: "Local environment Setup",
+            name: "Vendor(s)",
             dropDownItems: [
               {
                 name: "Mobile app",
-                routerPath: "/foodyman-documentation/flutter-sdk",
+                routerPath: "/cpurchase-documentation/flutter-sdk",
               },
               {
                 name: "Frontend",
-                routerPath: "/foodyman-documentation/local-front",
+                routerPath: "/cpurchase-documentation/local-front",
               },
               {
                 name: "Backend",
-                routerPath: "/foodyman-documentation/local-server",
+                routerPath: "/cpurchase-documentation/local-server",
               },
             ],
           },
           {
-            name: "Backend",
+            name: "Store keeper",
             dropDownItems: [
               {
                 name: "Install on server",
-                routerPath: "/foodyman-documentation/mandatory-setup-backend",
+                routerPath: "/cpurchase-documentation/mandatory-setup-backend",
               },
               {
                 name: "Troubleshooting",
-                routerPath: "/foodyman-documentation/troubleshooting-backend",
+                routerPath: "/cpurchase-documentation/troubleshooting-backend",
               },
             ],
           },
           {
-            name: "Admin Panel",
+            name: "Admin",
             dropDownItems: [
               {
                 name: "Install on server",
-                routerPath: "/foodyman-documentation/install-on-server",
+                routerPath: "/cpurchase-documentation/install-on-server",
               },
               {
                 name: "Mandatory setup",
-                routerPath: "/foodyman-documentation/mandatory-setup",
+                routerPath: "/cpurchase-documentation/mandatory-setup",
               },
               {
                 name: "Customization",
-                routerPath: "/foodyman-documentation/customization",
+                routerPath: "/cpurchase-documentation/customization",
               },
               {
                 name: "Troubleshooting",
-                routerPath: "/foodyman-documentation/troubleshooting-admin",
+                routerPath: "/cpurchase-documentation/troubleshooting-admin",
               },
             ],
           },
           {
-            name: "Web App",
+            name: "C.O.O",
             dropDownItems: [
               {
                 name: "Mandatory setup",
-                routerPath: "/foodyman-documentation/mandatory-setup-web",
+                routerPath: "/cpurchase-documentation/mandatory-setup-web",
               },
               {
                 name: "Build code and setup on server",
                 routerPath:
-                  "/foodyman-documentation/build-code-and-setup-on-server",
+                  "/cpurchase-documentation/build-code-and-setup-on-server",
               },
             ],
           },
           {
-            name: "Customer Apps",
+            name: "Accountant",
             dropDownItems: [
               {
                 name: "Mandatory setup",
-                routerPath: "/foodyman-documentation/mandatory-setup-customer",
+                routerPath: "/cpurchase-documentation/mandatory-setup-customer",
               },
               {
                 name: "Customization",
-                routerPath: "/foodyman-documentation/customization-customer",
+                routerPath: "/cpurchase-documentation/customization-customer",
               },
               {
                 name: "App build & release",
                 routerPath:
-                  "/foodyman-documentation/customer-app-build-release",
+                  "/cpurchase-documentation/customer-app-build-release",
               },
             ],
           },
@@ -150,15 +150,15 @@
             dropDownItems: [
               {
                 name: "Mandatory setup",
-                routerPath: "/foodyman-documentation/mandatory-setup-vendor",
+                routerPath: "/cpurchase-documentation/mandatory-setup-vendor",
               },
               {
                 name: "Customization",
-                routerPath: "/foodyman-documentation/customization-vendor",
+                routerPath: "/cpurchase-documentation/customization-vendor",
               },
               {
                 name: "App build & release",
-                routerPath: "/foodyman-documentation/vendor-app-build-release",
+                routerPath: "/cpurchase-documentation/vendor-app-build-release",
               },
             ],
           },
@@ -168,39 +168,39 @@
               {
                 name: "Mandatory setup",
                 routerPath:
-                  "/foodyman-documentation/mandatory-setup-deliveryboy",
+                  "/cpurchase-documentation/mandatory-setup-deliveryboy",
               },
               {
                 name: "Customization",
-                routerPath: "/foodyman-documentation/customization-deliveryboy",
+                routerPath: "/cpurchase-documentation/customization-deliveryboy",
               },
               {
                 name: "App build & release",
                 routerPath:
-                  "/foodyman-documentation/deliveryboy-app-build-release",
+                  "/cpurchase-documentation/deliveryboy-app-build-release",
               },
             ],
           },
           {
             name: "Firebase setup",
-            routerPath: "/foodyman-documentation/firebase",
+            routerPath: "/cpurchase-documentation/firebase",
           },
           {
             name: "Update",
             dropDownItems: [
               {
                 name: "Admin Panel",
-                routerPath: "/foodyman-documentation/update-admin-panel",
+                routerPath: "/cpurchase-documentation/update-admin-panel",
               },
               {
                 name: "App & Web",
-                routerPath: "/foodyman-documentation/Update-app-web",
+                routerPath: "/cpurchase-documentation/Update-app-web",
               },
             ],
           },
           {
             name: "Support plan",
-            routerPath: "/foodyman-documentation/support-plan",
+            routerPath: "/cpurchase-documentation/support-plan",
           },
         ],
         O = function (e) {
@@ -269,7 +269,7 @@
                     "@",
                     new Date().getFullYear(),
                     " ",
-                    Object(l.jsx)("span", { children: "Cpurchase Store" }),
+                    Object(l.jsx)("span", { children: "CodeinDevelopers" }),
                     ". All Rights Reserved. ",
                     Object(l.jsx)("br", {}),
                   ],
@@ -335,7 +335,7 @@
                         Object(l.jsx)(p.b, {
                           className: "ptf-navbar-logo",
                           to: "/",
-                          children: Object(l.jsx)("h2", {
+                          children: Object(l.jsx)("h3", {
                             className: "text-white",
                             children: "Cpurchase Store",
                           }),
@@ -451,7 +451,7 @@
             children: [
               Object(l.jsx)(o.a, {
                 children: Object(l.jsx)("title", {
-                  children: "Cpurchase Store - Foodyman Documentation",
+                  children: "Cpurchase- Store Documentation",
                 }),
               }),
               Object(l.jsx)(v, {}),
@@ -519,7 +519,7 @@
                       Object(l.jsx)("strong", { children: "NOTICE" }),
                     ],
                   }),
-                  "iF you have any difficuly using a certain feature on this site and can't find a section which adresses this issue in this documentation kindly contact us immedaitly by Whatsapp 07043774402 or mail Surpport@codindevelopers.com.ng",
+                  "iF you have any difficulty using a certain feature on this site and can't find a section which adresses such issue in this documentation kindly contact us immediately by Whatsapp 07043774402 or mail Surpport@codindevelopers.com.ng",
                 ],
               }),
               Object(l.jsx)("h1", {
@@ -572,7 +572,7 @@
                   }),
                 ],
               }),
-             
+
               Object(l.jsx)("h3", {
                 className: "introduction-title",
                 children: "Overview",
@@ -580,62 +580,19 @@
               Object(l.jsxs)("strong", {
                 className: "introduction-subTitle",
                 children: [
-                  "Welcome to - ",
+                  "Getting ",
                   Object(l.jsx)("strong", {
                     className: "strong",
-                    children: "Foodyman.",
+                    children: "Started",
                   }),
                 ],
               }),
               Object(l.jsxs)("div", {
                 children: [
-                  "The Cpurchse Store is a digital market place where ",
+                  "The Cpurchse Store is a digital market place where vendors and consumers can buy and sell all types of products",
                   Object(l.jsx)("br", {}),
-                  "Laravel is an open-source PHP Framework intended for the development of web applications which is a complete toolset, robust, yet easy to understand with an excellent, expressive syntax. ",
-                  Object(l.jsx)("br", {}),
-                  "Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites.",
-                  Object(l.jsx)("br", {}),
-                  "React (also known as React.js or ReactJs) is a free and open-source front-end JavaScript library[3] for building user interfaces based on UI components.",
-                  Object(l.jsx)("br", {}),
-                  "Flutter is an open-source framework for mobile application development created by Google. It is applied to develop multi-platform, natively compiled applications for Android and iOS.",
-                  Object(l.jsx)("div", { className: "line-break" }),
-                  "Foodyman consists of 2 Mobile Applications, 5 Web Panel, 1 website:",
-                  Object(l.jsx)("br", {}),
-                  Object(l.jsxs)("div", {
-                    className: "introduction-img-container",
-                    children: [
-                      Object(l.jsx)(A.b, {
-                        children: Object(l.jsx)(A.a, {
-                          children: Object(l.jsx)("a", {
-                            href: "/assets/img/doc/admin-banner.jpg",
-                            "data-fancybox": !0,
-                            rel: "nofollow",
-                            children: Object(l.jsx)("img", {
-                              src: "/assets/img/doc/admin-banner.jpg",
-                              alt: "admin",
-                              loading: "lazy",
-                              className: "img-responsive-full",
-                            }),
-                          }),
-                        }),
-                      }),
-                      Object(l.jsx)(A.b, {
-                        children: Object(l.jsx)(A.a, {
-                          children: Object(l.jsx)("a", {
-                            href: "./assets/img/project/foodyman-banner.jpg",
-                            "data-fancybox": !0,
-                            rel: "nofollow",
-                            children: Object(l.jsx)("img", {
-                              src: "./assets/img/project/foodyman-banner.jpg",
-                              alt: "web main",
-                              loading: "lazy",
-                              className: "img-responsive-full",
-                            }),
-                          }),
-                        }),
-                      }),
-                    ],
-                  }),
+                  "This documentation covers all the Features in the store component ",
+
                   Object(l.jsx)("div", { className: "line-break" }),
                   Object(l.jsx)("h3", {
                     className: "introduction-contentTitle",
@@ -673,13 +630,13 @@
               Object(l.jsx)("div", {
                 className: "next-page-container",
                 children: Object(l.jsxs)(p.b, {
-                  to: "/foodyman-documentation/basic",
+                  to: "/cpurchase-documentation/user",
                   className: "btn  next",
                   children: [
                     Object(l.jsx)("p", { children: "Next" }),
                     Object(l.jsx)("p", {
                       className: "link",
-                      children: " Basic ",
+                      children: " user ",
                     }),
                   ],
                 }),
@@ -695,10 +652,26 @@
             "data-aos-delay": "300",
             "data-aos-duration": "1000",
             children: [
-              Object(l.jsx)("h1", { className: "title", children: "Basic" }),
-              "As mentioned above, Foodyman is a multi-shop/seller & single vendor marketplace, full solution ( apps, web, admin). To set up the project, you should have some programming knowledge and tool installed on your computer.",
-             
-             
+              Object(l.jsx)("h4", { className: "title", children: "Registration" }),
+              "A new user can register on the as either a user or vendor",
+              Object(l.jsx)("br", {}),
+              "This documentation covers all the Features in the store component ",
+              Object(l.jsx)(A.b, {
+                children: Object(l.jsx)(A.a, {
+                  children: Object(l.jsx)("a", {
+                    href: "assets/img/doc/cpurchse_admin.png",
+                    "data-fancybox": !0,
+                    rel: "nofollow",
+                    children: Object(l.jsx)("img", {
+                      src: "assets/img/doc/registration.png",
+                      alt: "web main",
+                      loading: "lazy",
+                      className: "img-responsive-full",
+                    }),
+                  }),
+                }),
+              }),
+
               Object(l.jsx)("br", {}),
               Object(l.jsx)("h3", {
                 className: "introduction-contentTitle",
@@ -724,7 +697,7 @@
                 className: "alert alert-danger mt-4",
                 role: "alert",
 
-                
+
                 children: [
                   Object(l.jsxs)("div", {
                     className: "mb-2",
@@ -771,7 +744,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/server",
+                    to: "/cpurchase-documentation/server",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -840,18 +813,18 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/basic",
+                    to: "/cpurchase-documentation/user",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
                       Object(l.jsx)("p", {
                         className: "link",
-                        children: " Basic ",
+                        children: " user ",
                       }),
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/front",
+                    to: "/cpurchase-documentation/front",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -917,7 +890,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/front",
+                    to: "/cpurchase-documentation/front",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -928,7 +901,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/flutter-sdk",
+                    to: "/cpurchase-documentation/flutter-sdk",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -988,7 +961,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mobile-app",
+                    to: "/cpurchase-documentation/mobile-app",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -999,7 +972,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/local-front",
+                    to: "/cpurchase-documentation/local-front",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -1071,7 +1044,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/local-front",
+                    to: "/cpurchase-documentation/local-front",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -1082,7 +1055,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup-backend",
+                    to: "/cpurchase-documentation/mandatory-setup-backend",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -1366,7 +1339,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/troubleshooting-backend",
+                    to: "/cpurchase-documentation/troubleshooting-backend",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -1377,7 +1350,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup",
+                    to: "/cpurchase-documentation/mandatory-setup",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -1520,7 +1493,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/install-on-server",
+                    to: "/cpurchase-documentation/install-on-server",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -1531,7 +1504,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/customization",
+                    to: "/cpurchase-documentation/customization",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -1609,7 +1582,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup",
+                    to: "/cpurchase-documentation/mandatory-setup",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -1620,7 +1593,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/troubleshooting-admin",
+                    to: "/cpurchase-documentation/troubleshooting-admin",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -2084,7 +2057,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/build-code-and-setup-on-server",
+                    to: "/cpurchase-documentation/build-code-and-setup-on-server",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -2095,7 +2068,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/customization-mobile",
+                    to: "/cpurchase-documentation/customization-mobile",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -2557,7 +2530,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/vendor-app-build-release",
+                    to: "/cpurchase-documentation/vendor-app-build-release",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -2568,7 +2541,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/customization-deliveryboy",
+                    to: "/cpurchase-documentation/customization-deliveryboy",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -3033,7 +3006,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/customer-app-build-release",
+                    to: "/cpurchase-documentation/customer-app-build-release",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -3044,7 +3017,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/customization-vendor",
+                    to: "/cpurchase-documentation/customization-vendor",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -3509,7 +3482,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/build-code-and-setup-on-server",
+                    to: "/cpurchase-documentation/build-code-and-setup-on-server",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -3520,7 +3493,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/customization-customer",
+                    to: "/cpurchase-documentation/customization-customer",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -3601,7 +3574,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup-vendor",
+                    to: "/cpurchase-documentation/mandatory-setup-vendor",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -3612,7 +3585,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/vendor-app-build-release",
+                    to: "/cpurchase-documentation/vendor-app-build-release",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -3849,7 +3822,7 @@
               Object(l.jsxs)("strong", {
                 className: "introduction-subTitle",
                 children: [
-                  "How to setup foodyman project from cpanel -",
+                  "How to setup cpurchase project from cpanel -",
                   Object(l.jsx)("strong", {
                     className: "strong",
                     children: " Front",
@@ -3873,7 +3846,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/troubleshooting-admin",
+                    to: "/cpurchase-documentation/troubleshooting-admin",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -3884,7 +3857,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/build-code-and-setup-on-server",
+                    to: "/cpurchase-documentation/build-code-and-setup-on-server",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -4434,7 +4407,7 @@
               }),
               Object(l.jsx)("p", {
                 children:
-                  "\u2022 How to setup foodyman project from cpanel - Backend",
+                  "\u2022 How to setup cpurchase project from cpanel - Backend",
               }),
               Object(l.jsx)("iframe", {
                 width: "100%",
@@ -4450,7 +4423,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/local-server",
+                    to: "/cpurchase-documentation/local-server",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -4461,7 +4434,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/troubleshooting-backend",
+                    to: "/cpurchase-documentation/troubleshooting-backend",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -4718,7 +4691,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup-web",
+                    to: "/cpurchase-documentation/mandatory-setup-web",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -4729,7 +4702,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup-customer",
+                    to: "/cpurchase-documentation/mandatory-setup-customer",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -4986,7 +4959,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/build-code-and-setup-on-server",
+                    to: "/cpurchase-documentation/build-code-and-setup-on-server",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -4997,7 +4970,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup-customer",
+                    to: "/cpurchase-documentation/mandatory-setup-customer",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -5060,7 +5033,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/firebase",
+                    to: "/cpurchase-documentation/firebase",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -5071,7 +5044,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/update-app-web",
+                    to: "/cpurchase-documentation/update-app-web",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -5279,7 +5252,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/update-admin-panel",
+                    to: "/cpurchase-documentation/update-admin-panel",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -5290,7 +5263,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/support-plan",
+                    to: "/cpurchase-documentation/support-plan",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -5343,7 +5316,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/server",
+                    to: "/cpurchase-documentation/server",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -5354,7 +5327,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mobile-app",
+                    to: "/cpurchase-documentation/mobile-app",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -5413,7 +5386,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/flutter-sdk",
+                    to: "/cpurchase-documentation/flutter-sdk",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -5424,7 +5397,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/local-server",
+                    to: "/cpurchase-documentation/local-server",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -5643,7 +5616,7 @@
               Object(l.jsx)("p", {
                 className: "inner-text",
                 children:
-                  "We use Firebase Authentication, Cloud Messaging and Firestore in Foodyman. So, you have to setup Firebase in order to use Foodyman properly.",
+                  "We use Firebase Authentication, Cloud Messaging and Firestore in cpurchase. So, you have to setup Firebase in order to use cpurchase properly.",
               }),
               Object(l.jsx)("div", { className: "mt-4" }),
               Object(l.jsx)("div", {
@@ -5714,7 +5687,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/deliveryboy-app-build-release",
+                    to: "/cpurchase-documentation/deliveryboy-app-build-release",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -5725,7 +5698,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/update-admin-panel",
+                    to: "/cpurchase-documentation/update-admin-panel",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -5956,7 +5929,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup-backend",
+                    to: "/cpurchase-documentation/mandatory-setup-backend",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -5967,7 +5940,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/install-on-server",
+                    to: "/cpurchase-documentation/install-on-server",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -6048,7 +6021,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup-customer",
+                    to: "/cpurchase-documentation/mandatory-setup-customer",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -6059,7 +6032,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/customer-app-build-release",
+                    to: "/cpurchase-documentation/customer-app-build-release",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -6140,7 +6113,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup-deliveryboy",
+                    to: "/cpurchase-documentation/mandatory-setup-deliveryboy",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -6151,7 +6124,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/deliveryboy-app-build-release",
+                    to: "/cpurchase-documentation/deliveryboy-app-build-release",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -6431,7 +6404,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/customization",
+                    to: "/cpurchase-documentation/customization",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -6442,7 +6415,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup-web",
+                    to: "/cpurchase-documentation/mandatory-setup-web",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -6576,7 +6549,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/customization-customer",
+                    to: "/cpurchase-documentation/customization-customer",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -6587,7 +6560,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup-vendor",
+                    to: "/cpurchase-documentation/mandatory-setup-vendor",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -6721,7 +6694,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/customization-deliveryboy",
+                    to: "/cpurchase-documentation/customization-deliveryboy",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -6732,7 +6705,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/firebase",
+                    to: "/cpurchase-documentation/firebase",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -6866,7 +6839,7 @@
                 className: "center-page-container",
                 children: [
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/customization-vendor",
+                    to: "/cpurchase-documentation/customization-vendor",
                     className: "btn  previous",
                     children: [
                       Object(l.jsx)("p", { children: "Previous" }),
@@ -6877,7 +6850,7 @@
                     ],
                   }),
                   Object(l.jsxs)(p.b, {
-                    to: "/foodyman-documentation/mandatory-setup-deliveryboy",
+                    to: "/cpurchase-documentation/mandatory-setup-deliveryboy",
                     className: "btn  next",
                     children: [
                       Object(l.jsx)("p", { children: "Next" }),
@@ -6905,123 +6878,123 @@
                       element: Object(l.jsx)(P, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/basic",
+                      path: "/cpurchase-documentation/user",
                       element: Object(l.jsx)(S, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/server",
+                      path: "/cpurchase-documentation/server",
                       element: Object(l.jsx)(C, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/front",
+                      path: "/cpurchase-documentation/front",
                       element: Object(l.jsx)(X, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/local-front",
+                      path: "/cpurchase-documentation/local-front",
                       element: Object(l.jsx)(Z, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/mobile-app",
+                      path: "/cpurchase-documentation/mobile-app",
                       element: Object(l.jsx)(M, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/flutter-sdk",
+                      path: "/cpurchase-documentation/flutter-sdk",
                       element: Object(l.jsx)(_, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/local-server",
+                      path: "/cpurchase-documentation/local-server",
                       element: Object(l.jsx)(F, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/install-on-server",
+                      path: "/cpurchase-documentation/install-on-server",
                       element: Object(l.jsx)(R, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/mandatory-setup",
+                      path: "/cpurchase-documentation/mandatory-setup",
                       element: Object(l.jsx)(E, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/customization",
+                      path: "/cpurchase-documentation/customization",
                       element: Object(l.jsx)(z, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/mandatory-setup-mobile",
+                      path: "/cpurchase-documentation/mandatory-setup-mobile",
                       element: Object(l.jsx)(D, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/mandatory-setup-backend",
+                      path: "/cpurchase-documentation/mandatory-setup-backend",
                       element: Object(l.jsx)(H, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/mandatory-setup-vendor",
+                      path: "/cpurchase-documentation/mandatory-setup-vendor",
                       element: Object(l.jsx)(K, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/mandatory-setup-customer",
+                      path: "/cpurchase-documentation/mandatory-setup-customer",
                       element: Object(l.jsx)(G, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/mandatory-setup-deliveryboy",
+                      path: "/cpurchase-documentation/mandatory-setup-deliveryboy",
                       element: Object(l.jsx)(U, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/customization-vendor",
+                      path: "/cpurchase-documentation/customization-vendor",
                       element: Object(l.jsx)(L, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/customization-deliveryboy",
+                      path: "/cpurchase-documentation/customization-deliveryboy",
                       element: Object(l.jsx)(ie, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/customization-customer",
+                      path: "/cpurchase-documentation/customization-customer",
                       element: Object(l.jsx)(ce, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/customer-app-build-release",
+                      path: "/cpurchase-documentation/customer-app-build-release",
                       element: Object(l.jsx)(re, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/vendor-app-build-release",
+                      path: "/cpurchase-documentation/vendor-app-build-release",
                       element: Object(l.jsx)(de, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/deliveryboy-app-build-release",
+                      path: "/cpurchase-documentation/deliveryboy-app-build-release",
                       element: Object(l.jsx)(le, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/mandatory-setup-web",
+                      path: "/cpurchase-documentation/mandatory-setup-web",
                       element: Object(l.jsx)(W, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/build-code-and-setup-on-server",
+                      path: "/cpurchase-documentation/build-code-and-setup-on-server",
                       element: Object(l.jsx)(J, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/build-code-and-setup-on-server-backend",
+                      path: "/cpurchase-documentation/build-code-and-setup-on-server-backend",
                       element: Object(l.jsx)(Q, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/update-admin-panel",
+                      path: "/cpurchase-documentation/update-admin-panel",
                       element: Object(l.jsx)(q, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/update-app-web",
+                      path: "/cpurchase-documentation/update-app-web",
                       element: Object(l.jsx)(V, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/support-plan",
+                      path: "/cpurchase-documentation/support-plan",
                       element: Object(l.jsx)(se, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/firebase",
+                      path: "/cpurchase-documentation/firebase",
                       element: Object(l.jsx)(ae, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/troubleshooting-backend",
+                      path: "/cpurchase-documentation/troubleshooting-backend",
                       element: Object(l.jsx)(ne, {}),
                     }),
                     Object(l.jsx)(m.b, {
-                      path: "/foodyman-documentation/troubleshooting-admin",
+                      path: "/cpurchase-documentation/troubleshooting-admin",
                       element: Object(l.jsx)(oe, {}),
                     }),
                   ],
