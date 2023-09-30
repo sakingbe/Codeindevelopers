@@ -774,7 +774,7 @@ ul {
 }
 
 .tm_width_2 {
-  width: 16.66666667%;
+  width: 0.66666667%;
 }
 
 .tm_width_3 {
@@ -907,9 +907,11 @@ ul {
 }
 
 .tm_ternary_bg {
-  background-color: #b5b5b5;
+  background-color: #179617;
 }
-
+.tm_ternary_bgr {
+  background-color: #f30202;
+}
 .tm_accent_10_bg {
   background-color: rgba(0, 122, 255, 0.1);
 }
