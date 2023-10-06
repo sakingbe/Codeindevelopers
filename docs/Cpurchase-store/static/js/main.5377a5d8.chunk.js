@@ -653,7 +653,7 @@
                     Object(l.jsx)("p", { children: "Next" }),
                     Object(l.jsx)("p", {
                       className: "link",
-                      children: " user ",
+                      children: " Registration ",
                     }),
                   ],
                 }),
@@ -670,6 +670,24 @@
             "data-aos-duration": "1000",
             children: [
               Object(l.jsx)("h4", { className: "title", children: "Registration" }),
+  
+              Object(l.jsxs)("div", {
+                className: "alert alert-danger mt-4",
+                role: "alert",
+
+
+                children: [
+                  Object(l.jsxs)("div", {
+                    className: "mb-2",
+                    children: [
+                      Object(l.jsx)(T.a, { size: 22 }),
+                      " ",
+                      Object(l.jsx)("strong", { children: "WARNING" }),
+                    ],
+                  }),
+                  "We would like to notify that the Envato price doesn\u2019t include any kind of installation and app publishing support. We kindly ask you to follow the documentation step by step for installation, setup and other branding related changes. Please note that, we bear no responsibility for your mistake. You are fully in charge for any kind of customizations made by your own.",
+                ],
+              }),
               "A new user can register on the as either a user or vendor",
               Object(l.jsx)("br", {}),
               "This documentation covers all the Features in the store component ",
@@ -709,24 +727,7 @@
               "\u2022 For Backend development: PHP , MySQL , Laravel ",
               Object(l.jsx)("br", {}),
               "\u2022 For Frontend development: Next Js , React Js, Google map , Firebase ",
-              Object(l.jsx)("br", {}),
-              Object(l.jsxs)("div", {
-                className: "alert alert-danger mt-4",
-                role: "alert",
-
-
-                children: [
-                  Object(l.jsxs)("div", {
-                    className: "mb-2",
-                    children: [
-                      Object(l.jsx)(T.a, { size: 22 }),
-                      " ",
-                      Object(l.jsx)("strong", { children: "WARNING" }),
-                    ],
-                  }),
-                  "We would like to notify that the Envato price doesn\u2019t include any kind of installation and app publishing support. We kindly ask you to follow the documentation step by step for installation, setup and other branding related changes. Please note that, we bear no responsibility for your mistake. You are fully in charge for any kind of customizations made by your own.",
-                ],
-              }),
+              
               Object(l.jsxs)("div", {
                 className: "alert alert-primary mt-3",
                 role: "alert",
