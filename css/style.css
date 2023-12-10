@@ -886,7 +886,7 @@ img {
   align-items: center;
 }
 .brandlogo img {
-  max-height: 35px;
+  max-height: 80px;
 }
 .brandlogo .light {
   display: none;
