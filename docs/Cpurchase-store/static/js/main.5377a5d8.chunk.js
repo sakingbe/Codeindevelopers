@@ -519,7 +519,7 @@
                       Object(l.jsx)("strong", { children: "IMPORTANT NOTICE" }),
                     ],
                   }),
-                  "iF you have any difficulty using a certain feature on this site and can't find a section which adresses such issue in this documentation kindly contact us immediately by Whatsapp 07043774402 or mail Surpport@codindevelopers.com.ng",
+                  "iF you have any difficulty using a certain feature on this site and can't find a section which adresses such issue in this documentation kindly contact us immediately by Whatsapp 09133557669 or mail Surpport@codindevelopers.com.ng",
                 ],
               }),
               Object(l.jsx)("h1", {
