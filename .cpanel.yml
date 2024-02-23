@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/skrillac/public_html/codeindevelopers.com.ng
+
     - /bin/cp -a * $DEPLOYPATH
