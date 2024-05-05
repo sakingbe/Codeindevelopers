@@ -354,7 +354,7 @@ a {
   margin-bottom: 150px;
 }
 html .pt0 {
-  padding-top: 0;
+  padding-top: 16px;
 }
 .pt5 {
   padding-top: 5px;
@@ -402,7 +402,7 @@ html .pt0 {
   padding-top: 75px;
 }
 .pt80 {
-  padding-top: 80px;
+  padding-top: 0px;
 }
 .pt85 {
   padding-top: 85px;
