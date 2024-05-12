@@ -4167,7 +4167,7 @@ a.btgs {
   border: 1px dashed var(--bs-gray-300);
   padding: 30px;
   border-radius: 14px;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 .form-btm-set h5 {
   background: var(--white-color);
@@ -4500,7 +4500,7 @@ a.btgs {
   grid-gap: 10px;
 }
 .contact-block-sw {
-  padding: 50px 30px;
+  padding: 20px 30px;
   border-radius: 14px;
   background: #fff;
   box-shadow: 0 5px 15px 0 rgb(0 0 0/14%);
