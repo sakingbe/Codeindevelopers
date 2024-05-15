@@ -171,7 +171,10 @@
     margin-top: 0px;
   }
     .mm457t40 {
-    margin-top: 30px;
+    margin-top: 15px;
+  }
+   .mm457t402 {
+    margin-top: 10px;
   }
   .mmry4rt40 {
     margin-top: 18px;
@@ -512,6 +515,10 @@
     padding-top: 20px;
     padding-bottom: 10px;
   }
+    .section-space2 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
   .pb300 {
     padding-bottom: 25px !important;
   }
@@ -538,7 +545,7 @@
   }
   .demo-2-hero {
     padding-top: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
   .word-block-div {
     padding-bottom: 8px;
